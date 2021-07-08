@@ -12,58 +12,31 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Dewlish Village Platinum Jubilee Celebration 2022
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href='https://nextjs.org/docs' className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href='https://nextjs.org/learn' className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href='https://github.com/vercel/next.js/tree/master/examples'
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href='https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app'
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
+        <header className={styles.header}>
+          <h1 className={styles.title}>The Queen's Platinum Jubilee 2022</h1>
+          <h2 className={styles.headerSubText}>Dewlish Village Celebration</h2>
+        </header>
+        <section className={styles.section}>
+          <p>
+            Dewlish will be holding a series of events to celebrate the Queen's
+            Platinum Jublilee over the national bank holiday from Thursday 2nd
+            June to Sunday 5th June 2022. We will be running a series of
+            fundraising events over the course of the next year to fund these
+            events.
+          </p>
+          <p>
+            As of 8th July 2021 this is a new website. We will be adding content
+            over the next few weeks, so please bookmark it.
+          </p>
+        </section>
+        <section className={styles.section}>
+          <h2 className={styles.subHeading}>Barbecue Sat 31st July 2021</h2>
+          <p>
+            Our first event will be a village barbecue at the village hall on
+            Sat 31st July. Details to follow...
+          </p>
+        </section>
       </main>
-
-      <footer className={styles.footer}>
-        <a
-          href='https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src='/vercel.svg' alt='Vercel Logo' width={72} height={16} />
-          </span>
-        </a>
-      </footer>
     </div>
   );
 }

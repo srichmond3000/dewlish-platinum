@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100%;
 }
 
 .main {
@@ -15,6 +15,31 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 900px;
+}
+
+.section {
+  width: 100%;
+}
+
+.header {
+  background-color: #0d4787;
+  color: #fff;
+  width: 100%;
+  padding: 1em 0;
+}
+
+.headerSubText {
+  text-align: center;
+  font-style: italic;
+}
+
+.subHeading {
+  color: #0d4787;
+}
+
+.listItem {
+  padding: 0.2em 0;
 }
 
 .footer {
@@ -34,7 +59,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: #37667E;
   text-decoration: none;
 }
 
