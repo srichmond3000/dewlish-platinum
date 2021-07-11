@@ -1,0 +1,53 @@
+@import '../../../styles/variables';
+
+.nav {
+  background-color: $layout-background-colour;
+
+  a {
+    display: inline-block; /* Force layout to respect vertical margin/padding */
+    text-decoration: none;
+    color: $layout-font-colour;
+    padding: $layout-link-padding;
+    transition: background-color $layout-transition-duration;
+
+    &.active {
+      background-color: $layout-link-hover-colour;
+    }
+
+    &:hover {
+      background-color: $layout-link-hover-colour;
+    }
+
+    &.icon {
+      display: none;
+    }
+  }
+
+  &:nth-child(n + 2) {
+    margin-left: $layout-link-margin;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .nav {
+    a {
+      display: none;
+
+      &.icon {
+        display: block;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .nav.responsive {
+    a {
+      display: block;
+
+      &.icon {
+        display: block;
+      }
+    }
+  }
+}
