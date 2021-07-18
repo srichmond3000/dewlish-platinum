@@ -11,11 +11,15 @@ export default function Layout({ children, title = 'Default title' }) {
           href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'
         />
       </Head>
-      <header>
-        <Header></Header>
-      </header>
-      {children}
-      <Footer></Footer>
+      <div className='container'>
+        <header className='header'>
+          <Header></Header>
+        </header>
+        <div className='main'>{children}</div>
+        <footer className='footer'>
+          <Footer />
+        </footer>
+      </div>
     </>
   );
 }

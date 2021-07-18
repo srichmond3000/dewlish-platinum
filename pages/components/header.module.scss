@@ -1,0 +1,28 @@
+.container {
+  display: grid;
+  grid-template-areas:
+    'image title donate'
+    'image subTitle donate'
+    'nav nav nav';
+  grid-template-rows: 1fr 1fr 1fr;
+
+  .image {
+    grid-area: image;
+  }
+
+  .title {
+    grid-area: title;
+  }
+
+  .donate {
+    grid-area: donate;
+  }
+
+  .subTitle {
+    grid-area: subTitle;
+  }
+
+  .nav {
+    grid-area: nav;
+  }
+}
