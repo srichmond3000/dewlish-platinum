@@ -1,21 +1,19 @@
 @import '../../../styles/variables';
 
 .nav {
-  background-color: $layout-background-colour;
-
   a {
     display: inline-block; /* Force layout to respect vertical margin/padding */
     text-decoration: none;
-    color: $layout-font-colour;
     padding: $layout-link-padding;
     transition: background-color $layout-transition-duration;
+    color: hsl(0, 0, 100);
 
     &.active {
-      background-color: $layout-link-hover-colour;
+      background-color: hsl(211, 82, 40);
     }
 
     &:hover {
-      background-color: $layout-link-hover-colour;
+      background-color: hsl(211, 82, 40);
     }
 
     &.icon {

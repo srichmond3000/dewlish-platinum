@@ -4,7 +4,10 @@
     'image title donate'
     'image subTitle donate'
     'nav nav nav';
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-columns: auto 1fr auto;
+  background-color: hsl(211, 82, 29);
+  color: hsl(0, 0, 100);
 
   .image {
     grid-area: image;
