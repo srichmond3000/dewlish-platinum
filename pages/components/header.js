@@ -14,12 +14,11 @@ const Header = () => {
         />
       </div>
       <div className={styles.title}>
-        <h1>Header</h1>
+        <h1>The Queen's Platinum Jubilee 2022</h1>
+        <span class={styles.subTitle}>- Dewlish Village Celebration</span>
       </div>
-      <div className={styles.donate}>Donate</div>
-      <div className={styles.subTitle}>Sub title</div>
       <div className={styles.nav}>
-        <Nav></Nav>
+        <Nav />
       </div>
     </div>
   );

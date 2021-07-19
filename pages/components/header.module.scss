@@ -1,9 +1,8 @@
 .container {
   display: grid;
   grid-template-areas:
-    'image title donate'
-    'image subTitle donate'
-    'nav nav nav';
+    'image title'
+    'nav nav';
   grid-template-rows: auto;
   grid-template-columns: auto 1fr auto;
   background-color: hsl(211, 82, 29);
@@ -11,18 +10,17 @@
 
   .image {
     grid-area: image;
+    margin: 0.75em;
   }
 
   .title {
     grid-area: title;
-  }
-
-  .donate {
-    grid-area: donate;
+    text-align: center;
   }
 
   .subTitle {
-    grid-area: subTitle;
+    font-style: italic;
+    font-size: 1.2rem;
   }
 
   .nav {
