@@ -5,8 +5,8 @@
     'nav nav';
   grid-template-rows: auto;
   grid-template-columns: auto 1fr auto;
-  background-color: hsl(211, 82, 29);
-  color: hsl(0, 0, 100);
+  background-color: hsl(211, 82%, 29%);
+  color: hsl(0, 0%, 100%);
 
   .image {
     grid-area: image;
