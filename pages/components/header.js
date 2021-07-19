@@ -15,7 +15,7 @@ const Header = () => {
       </div>
       <div className={styles.title}>
         <h1>The Queen's Platinum Jubilee 2022</h1>
-        <span class={styles.subTitle}>- Dewlish Village Celebration</span>
+        <span className={styles.subTitle}>- Dewlish Village Celebration</span>
       </div>
       <div className={styles.nav}>
         <Nav />
