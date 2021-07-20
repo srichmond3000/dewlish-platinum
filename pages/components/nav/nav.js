@@ -17,16 +17,16 @@ const Nav = () => {
   return (
     <nav className={navClass}>
       <Hamburger handleClick={toggleMenu} />
-      <ActiveLink href='/'>
+      <ActiveLink activeClassName={styles.active} href='/'>
         <a>Home</a>
       </ActiveLink>
-      <ActiveLink href='/events'>
+      <ActiveLink activeClassName={styles.active} href='/events'>
         <a>Events</a>
       </ActiveLink>
-      <ActiveLink href='/donate'>
+      <ActiveLink activeClassName={styles.active} href='/donate'>
         <a>Donate</a>
       </ActiveLink>
-      <ActiveLink href='/contact'>
+      <ActiveLink activeClassName={styles.active} href='/contact'>
         <a>Contact</a>
       </ActiveLink>
     </nav>
