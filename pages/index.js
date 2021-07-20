@@ -13,16 +13,18 @@ export default function Home() {
 
       <main className={styles.main}>
         <header className={styles.header}>
-          <h1 className={styles.title}>The Queen's Platinum Jubilee 2022</h1>
+          <h1 className={styles.title}>
+            The Queen&apos;s Platinum Jubilee 2022
+          </h1>
           <h2 className={styles.headerSubText}>Dewlish Village Celebration</h2>
         </header>
         <section className={styles.section}>
           <p>
-            Dewlish will be holding a series of events to celebrate the Queen's
-            Platinum Jublilee over the national bank holiday from Thursday 2nd
-            June to Sunday 5th June 2022. We will be running a series of
-            fundraising events over the course of the next year to fund these
-            events.
+            Dewlish will be holding a series of events to celebrate the
+            Queen&apos;s Platinum Jublilee over the national bank holiday from
+            Thursday 2nd June to Sunday 5th June 2022. We will be running a
+            series of fundraising events over the course of the next year to
+            fund these events.
           </p>
           <p>
             As of 8th July 2021 this is a new website. We will be adding content
@@ -32,8 +34,8 @@ export default function Home() {
         <section className={styles.section}>
           <h2 className={styles.subHeading}>Barbecue Sat 31st July 2021</h2>
           <p>
-            Our first event will be a village barbecue at the village hall on
-            Sat 31st July. Details to follow...
+            Our first event will be a barbecue outside the village hall on Sat
+            31st July. Starts at 6pm - all welcome.
           </p>
         </section>
       </main>
