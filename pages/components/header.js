@@ -9,8 +9,8 @@ const Header = () => {
         <Image
           src='/images/union-jack.jpg'
           alt='Union Jack'
-          width='150'
-          height='87'
+          width={150}
+          height={87}
         />
       </div>
       <div className={styles.title}>
