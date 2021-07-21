@@ -9,7 +9,7 @@ const Home = () => {
         organise a series of fund raising events through 2021-2022 to raise
         money to hold a set of events to celebrate the Queen&apos;s Platinum
         Jubilee over the extended bank holiday weekend of Thurs 2nd to Sun 5th
-        June.
+        June 2022.
       </p>
       <p>
         See the{' '}
