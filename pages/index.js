@@ -37,6 +37,7 @@ export default function Home() {
             Our first event will be a barbecue outside the village hall on Sat
             31st July. Starts at 6pm - all welcome.
           </p>
+          <p>Please bring your own drinks and glasses.</p>
         </section>
       </main>
     </div>
