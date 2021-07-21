@@ -1,6 +1,5 @@
-//import Image from 'next/image';
 import Layout from './components/layout';
-import styles from '../styles/Home.module.css';
+import ActiveLink from './components/nav/activeLink';
 
 const Home = () => {
   return (
@@ -13,9 +12,12 @@ const Home = () => {
         June.
       </p>
       <p>
-        Back in 2012 Dewlish celebrated the Queen&apos;s Diamond Jubilee marking
-        60 years on the throne. The weekend was a great success and the money
-        left over was donated to charity.
+        See the{' '}
+        <ActiveLink href='/events'>
+          <span>Events</span>
+        </ActiveLink>{' '}
+        page for details of our first event - a village barbecue on Sat July
+        31st.
       </p>
     </Layout>
   );

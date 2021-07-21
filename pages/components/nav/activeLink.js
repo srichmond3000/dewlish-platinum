@@ -1,21 +1,20 @@
-import React, { Children } from 'react';
-import Link from 'next/link';
 import { useRouter } from 'next/router';
+import styles from './nav.module.scss';
 
-const ActiveLink = ({ children, activeClassName, ...props }) => {
-  const { asPath } = useRouter();
-  const child = Children.only(children);
-  const childClassName = child.props.className || '';
+const ActiveLink = ({ children, href }) => {
+  const router = useRouter();
 
-  const className =
-    asPath === props.href || asPath === props.as
-      ? `${childClassName}${activeClassName}`
-      : childClassName;
+  const handleClick = (e) => {
+    e.preventDefault();
+    router.push(href);
+  };
+
+  const className = router.asPath === href ? `${styles.active}` : '';
 
   return (
-    <Link {...props}>
-      {React.cloneElement(child, { className: className || null })}
-    </Link>
+    <a href={href} onClick={handleClick} className={className}>
+      {children}
+    </a>
   );
 };
 
