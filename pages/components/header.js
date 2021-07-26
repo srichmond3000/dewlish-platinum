@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className={styles.container}>
       <div className={styles.image}>
-        <Image src='/images/union-jack.jpg' alt='Union Jack' width={150} />
+        <Image src='/images/union-jack.jpg' alt='Union Jack' />
       </div>
       <div className={styles.title}>
         <h1>The Queen&apos;s Platinum Jubilee 2022</h1>
