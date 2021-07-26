@@ -7,7 +7,7 @@ const Header = () => {
     <div className={styles.container}>
       <div className={styles.image}>
         <Image
-          src='/images/union-jack.jpg'
+          src='/images/union-jack-small.jpg'
           alt='Union Jack'
           width={150}
           height={87}
