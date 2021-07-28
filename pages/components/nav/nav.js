@@ -23,9 +23,6 @@ const Nav = () => {
       <ActiveLink href='/events'>
         <span>Events</span>
       </ActiveLink>
-      <ActiveLink href='/donate'>
-        <span>Donate</span>
-      </ActiveLink>
       <ActiveLink href='/contact'>
         <span>Contact</span>
       </ActiveLink>
