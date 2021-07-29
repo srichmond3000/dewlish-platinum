@@ -1,17 +1,12 @@
 .container {
   display: grid;
   grid-template-areas:
-    'image title'
-    'nav nav';
+    'title'
+    'nav';
   grid-template-rows: auto;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: auto;
   background-color: hsl(211, 82%, 29%);
   color: hsl(0, 0%, 100%);
-
-  .image {
-    grid-area: image;
-    margin: 0.75em;
-  }
 
   .title {
     grid-area: title;
