@@ -16,7 +16,7 @@ const Home = () => {
         <ActiveLink href='/events'>
           <span>Events</span>
         </ActiveLink>{' '}
-        page for details of our first event - a village barbecue on Sat July
+        page for details of our first event - a family barbecue on Sat July
         31st.
       </p>
     </Layout>
