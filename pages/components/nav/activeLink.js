@@ -1,11 +1,12 @@
 import { useRouter } from 'next/router';
 import styles from './nav.module.scss';
 
-const ActiveLink = ({ children, href }) => {
+const ActiveLink = ({ children, href, onNav }) => {
   const router = useRouter();
 
   const handleClick = (e) => {
     e.preventDefault();
+    onNav();
     router.push(href);
   };
 

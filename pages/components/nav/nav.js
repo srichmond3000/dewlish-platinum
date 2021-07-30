@@ -17,13 +17,13 @@ const Nav = () => {
   return (
     <nav className={navClass}>
       <Hamburger handleClick={toggleMenu} />
-      <ActiveLink href='/'>
+      <ActiveLink href='/' onNav={toggleMenu}>
         <span>Home</span>
       </ActiveLink>
-      <ActiveLink href='/events'>
+      <ActiveLink href='/events' onNav={toggleMenu}>
         <span>Events</span>
       </ActiveLink>
-      <ActiveLink href='/contact'>
+      <ActiveLink href='/contact' onNav={toggleMenu}>
         <span>Contact</span>
       </ActiveLink>
     </nav>
