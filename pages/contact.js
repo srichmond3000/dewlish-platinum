@@ -7,6 +7,7 @@ const Contact = () => {
       <p>Enter your details and message and we will get back to you.</p>
 
       <form name='contact' method='POST' data-netlify='true' action='/thankyou'>
+        <input type='hidden' name='form-name' value='contact' />
         <div className={styles.form}>
           <label htmlFor='name' className={styles.label}>
             Name
