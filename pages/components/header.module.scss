@@ -1,0 +1,24 @@
+.container {
+  display: grid;
+  grid-template-areas:
+    'title'
+    'nav';
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+  background-color: hsl(211, 82%, 29%);
+  color: hsl(0, 0%, 100%);
+
+  .title {
+    grid-area: title;
+    text-align: center;
+  }
+
+  .subTitle {
+    font-style: italic;
+    font-size: 1.2rem;
+  }
+
+  .nav {
+    grid-area: nav;
+  }
+}
