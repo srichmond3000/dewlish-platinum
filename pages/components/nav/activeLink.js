@@ -6,7 +6,9 @@ const ActiveLink = ({ children, href, onNav }) => {
 
   const handleClick = (e) => {
     e.preventDefault();
-    onNav();
+    if (typeof onNav === 'function') {
+      onNav();
+    }
     router.push(href);
   };
 
