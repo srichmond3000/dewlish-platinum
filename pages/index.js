@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Layout from './components/layout';
 import ActiveLink from './components/nav/activeLink';
 
@@ -20,12 +19,6 @@ const Home = () => {
         page for details of our first event - a family barbecue on Sat July
         31st.
       </p>
-      <Image
-        src='/images/union-jack.jpg'
-        alt='Union Jack'
-        width={150}
-        height={87}
-      />
     </Layout>
   );
 };
