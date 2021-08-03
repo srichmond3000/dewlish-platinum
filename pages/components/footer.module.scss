@@ -1,4 +1,15 @@
-.footer {
-  justify-self: stretch;
-  text-align: center;
+.footerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0.5em;
+}
+
+.copy {
+  // align-self: center;
+}
+
+.facebookLink {
+  // align-self: center;
+  margin-left: 1em;
 }
