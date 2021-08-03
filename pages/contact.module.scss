@@ -15,6 +15,10 @@
   border-radius: 0.25em;
 }
 
+.hidden {
+  visibility: hidden;
+}
+
 .button {
   width: fit-content;
   background-color: hsl(158, 95%, 35%);
