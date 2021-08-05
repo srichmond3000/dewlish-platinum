@@ -5,11 +5,11 @@
 }
 
 .label {
+  margin-top: 0.75em;
   margin-bottom: 0.25em;
 }
 
 .input {
-  margin-bottom: 1em;
   padding: 0.5em;
   border: 1px solid hsl(0, 0%, 0%);
   border-radius: 0.25em;
@@ -32,4 +32,8 @@
   &:hover {
     background-color: hsl(158, 95%, 30%);
   }
+}
+
+.error {
+  color: hsl(0, 100%, 50%);
 }

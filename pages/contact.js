@@ -90,7 +90,7 @@ const Contact = () => {
             value={formData.name}
             onChange={handleChange}
           />
-          {errors.name && <p>{errors.name}</p>}
+          {errors.name && <span className={styles.error}>{errors.name}</span>}
 
           <label htmlFor='email' className={styles.label}>
             Email
