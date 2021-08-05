@@ -67,7 +67,10 @@ const Contact = () => {
 
   return (
     <Layout title='Dewlish Platinum - Contact'>
-      <p>Enter your details and message and we will get back to you.</p>
+      <h2>Contact Us</h2>
+      <span>
+        Enter your details and message and we&apos;ll get back to you.
+      </span>
       {/* This form is just to allow the Netlify bot to find the netlfiy attribute */}
       <form name='contact' netlify netlify-honeypot='bot-field' hidden>
         <input type='text' name='name' />
@@ -80,7 +83,7 @@ const Contact = () => {
         <input type='text' name='bot-field' className={styles.hidden} />
         <div className={styles.form}>
           <label htmlFor='name' className={styles.label}>
-            Name
+            Name *
           </label>
           <input
             id='name'
@@ -93,7 +96,7 @@ const Contact = () => {
           {errors.name && <span className={styles.error}>{errors.name}</span>}
 
           <label htmlFor='email' className={styles.label}>
-            Email
+            Email *
           </label>
           <input
             id='email'
@@ -103,10 +106,10 @@ const Contact = () => {
             value={formData.email}
             onChange={handleChange}
           />
-          {errors.email && <p>{errors.email}</p>}
+          {errors.email && <span className={styles.error}>{errors.email}</span>}
 
           <label htmlFor='message' className={styles.label}>
-            Message
+            Message *
           </label>
           <textarea
             id='message'
@@ -117,7 +120,9 @@ const Contact = () => {
             value={formData.message}
             onChange={handleChange}
           />
-          {errors.message && <p>{errors.message}</p>}
+          {errors.message && (
+            <span className={styles.error}>{errors.message}</span>
+          )}
 
           <button type='submit' className={styles.button}>
             Send
