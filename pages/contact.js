@@ -26,7 +26,7 @@ const Contact = () => {
         .then(() => setSubmitted(false))
         .then(() => setFormData({ name: '', email: '', message: '' }))
         .then(() => router.push('/thankyou'))
-        .catch((error) => console.log(error));
+        .catch((error) => console.log(`Error: ${error}`));
     }
   }, [errors, formData, submitted, router]);
 
