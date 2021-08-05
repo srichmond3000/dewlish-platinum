@@ -19,7 +19,7 @@ const Contact = () => {
       fetch('/', {
         method: 'POST',
         headers: {
-          'Content-Type': 'application/x-wwww-form-urlencoded',
+          'Content-Type': 'application/x-www-form-urlencoded',
         },
         body: encode({ 'form-name': 'contact', ...formData }),
       })
