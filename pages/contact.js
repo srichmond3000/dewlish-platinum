@@ -1,8 +1,10 @@
+import { useRouter } from 'next/router';
 import { useState, useEffect } from 'react';
 import Layout from './components/layout';
 import styles from './contact.module.scss';
 
 const Contact = () => {
+  const router = useRouter();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -21,12 +23,12 @@ const Contact = () => {
         },
         body: encode({ 'form-name': 'contact', ...formData }),
       })
-        .then(() => alert('Success'))
         .then(() => setSubmitted(false))
         .then(() => setFormData({ name: '', email: '', message: '' }))
-        .catch((error) => alert(error));
+        .then(() => router.push('/thankyou'))
+        .catch((error) => console.log(error));
     }
-  }, [errors, formData, submitted]);
+  }, [errors, formData, submitted, router]);
 
   const encode = (data) => {
     return Object.keys(data)
@@ -73,7 +75,7 @@ const Contact = () => {
         <textarea name='message'></textarea>
       </form>
 
-      <form name='contact' action='/thankyou' onSubmit={handleSubmit}>
+      <form name='contact' netlify onSubmit={handleSubmit}>
         <input type='hidden' name='form-name' value='contact' />
         <input type='text' name='bot-field' className={styles.hidden} />
         <div className={styles.form}>
