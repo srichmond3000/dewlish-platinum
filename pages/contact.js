@@ -75,7 +75,7 @@ const Contact = () => {
         <textarea name='message'></textarea>
       </form>
 
-      <form name='contact' netlify onSubmit={handleSubmit}>
+      <form name='contact' netlify method='POST' onSubmit={handleSubmit}>
         <input type='hidden' name='form-name' value='contact' />
         <input type='text' name='bot-field' className={styles.hidden} />
         <div className={styles.form}>
