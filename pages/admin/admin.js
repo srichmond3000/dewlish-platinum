@@ -1,6 +1,6 @@
 import { withPageAuthRequired } from '@auth0/nextjs-auth0';
 import { useUser } from '@auth0/nextjs-auth0';
-import Layout from './components/layout';
+import Layout from '../components/layout';
 
 const Admin = () => {
   const { user } = useUser();
