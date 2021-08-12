@@ -27,7 +27,7 @@ const Home = () => {
         <p>
           We also held a very successful series of events to celebrate the
           Queen&apos;s Diamond Jubilee back in 2012. Click{' '}
-          <ActiveLink href='https://drive.google.com/file/d/1Hw8o01B7QhQwwrwf9xVi6IQ91nwRJ2oc/view?usp=sharing'>
+          <ActiveLink href='https://ucarecdn.com/94424e45-2a10-47e2-bf50-fad661471e1e/JubileeBook.pdf'>
             here to read about it
           </ActiveLink>
           .
