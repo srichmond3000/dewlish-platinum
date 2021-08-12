@@ -11,9 +11,14 @@ const Nav = () => {
   const renderLogout = () => {
     return (
       user && (
-        <ActiveLink href='/api/auth/logout' onNav={toggleMenu}>
-          <span>Logout</span>
-        </ActiveLink>
+        <>
+          <ActiveLink href='/admin/admin' onNav={toggleMenu}>
+            <span>Admin</span>
+          </ActiveLink>
+          <ActiveLink href='/api/auth/logout' onNav={toggleMenu}>
+            <span>Logout</span>
+          </ActiveLink>
+        </>
       )
     );
   };
@@ -21,14 +26,9 @@ const Nav = () => {
   const renderLogin = () => {
     return (
       !user && (
-        <>
-          <ActiveLink href='/api/auth/login' onNav={toggleMenu}>
-            <span>Login</span>
-          </ActiveLink>
-          <ActiveLink href='/auth/register' onNav={toggleMenu}>
-            <span>Register</span>
-          </ActiveLink>
-        </>
+        <ActiveLink href='/api/auth/login' onNav={toggleMenu}>
+          <span>Login</span>
+        </ActiveLink>
       )
     );
   };
