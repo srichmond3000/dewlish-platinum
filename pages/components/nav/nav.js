@@ -23,16 +23,6 @@ const Nav = () => {
     );
   };
 
-  const renderLogin = () => {
-    return (
-      !user && (
-        <ActiveLink href='/api/auth/login' onNav={toggleMenu}>
-          <span>Login</span>
-        </ActiveLink>
-      )
-    );
-  };
-
   const toggleMenu = () => {
     setExpandMenu(!expandMenu);
   };
@@ -53,7 +43,6 @@ const Nav = () => {
       <ActiveLink href='/contact' onNav={toggleMenu}>
         <span>Contact</span>
       </ActiveLink>
-      {renderLogin()}
       {renderLogout()}
     </nav>
   );
