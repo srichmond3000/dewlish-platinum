@@ -1,10 +1,27 @@
 import { useState } from 'react';
+import { useUser } from '@auth0/nextjs-auth0';
 import ActiveLink from './activeLink';
 import Hamburger from './hamburger';
 import styles from './nav.module.scss';
 
 const Nav = () => {
   const [expandMenu, setExpandMenu] = useState(false);
+  const { user } = useUser();
+
+  const renderLogout = () => {
+    return (
+      user && (
+        <>
+          <ActiveLink href='/admin/admin' onNav={toggleMenu}>
+            <span>Admin</span>
+          </ActiveLink>
+          <ActiveLink href='/api/auth/logout' onNav={toggleMenu}>
+            <span>Logout</span>
+          </ActiveLink>
+        </>
+      )
+    );
+  };
 
   const toggleMenu = () => {
     setExpandMenu(!expandMenu);
@@ -26,6 +43,7 @@ const Nav = () => {
       <ActiveLink href='/contact' onNav={toggleMenu}>
         <span>Contact</span>
       </ActiveLink>
+      {renderLogout()}
     </nav>
   );
 };
