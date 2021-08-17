@@ -8,7 +8,7 @@ const Nav = () => {
   const [expandMenu, setExpandMenu] = useState(false);
   const { user } = useUser();
 
-  const renderLogout = () => {
+  const renderAdmin = () => {
     return (
       user && (
         <>
@@ -43,7 +43,7 @@ const Nav = () => {
       <ActiveLink href='/contact' onNav={toggleMenu}>
         <span>Contact</span>
       </ActiveLink>
-      {renderLogout()}
+      {renderAdmin()}
     </nav>
   );
 };

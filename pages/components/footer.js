@@ -1,10 +1,16 @@
 import Image from 'next/image';
+import ActiveLink from '../components/nav/activeLink';
 import styles from './footer.module.scss';
 
 const Footer = () => {
   return (
     <div className={styles.footerContainer}>
-      <span className={styles.copy}>&copy; Dewlish Platinum 2021</span>
+      <nav className={styles.nav}>
+        <ActiveLink href='/admin/admin'>
+          <span>&copy;</span>
+        </ActiveLink>
+      </nav>
+      <span>&nbsp;Dewlish Platinum 2021</span>
 
       <a
         href='https://www.facebook.com/Dewlish-VillageDorset-984377341722347'
