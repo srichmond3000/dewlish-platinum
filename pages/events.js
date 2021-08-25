@@ -5,7 +5,7 @@ const Events = () => {
   return (
     <Layout title='Dewlish Platinum - Events'>
       <h2>Upcoming events</h2>
-      <h3>Tea on the Lawn Sun 5th Aug 2021</h3>
+      <h3>Tea on the Lawn Sun 5th Sept 2021</h3>
       <p>
         Traditional tea with cream or savoury delights from 3.00 to 5.00pm. To
         be held at Akerian, Dewlish courtesy of Albert and Nonie Ross. All
