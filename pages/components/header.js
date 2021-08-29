@@ -11,6 +11,7 @@ const Header = () => {
           alt='Union Jack'
           width={150}
           height={87}
+          priority={true}
         />
       </div>
       <div className={styles.title}>
