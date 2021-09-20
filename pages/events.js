@@ -44,14 +44,14 @@ const Events = () => {
         game of &apos;heads and tails&apos; at the end.
       </p>
       <Image
-        src='/images/barbecue.jpg'
+        src='/images/Optimized-barbecue.jpg'
         alt='People sat outside village hall at barbecue'
         width={500}
         height={375}
       />
       <p>The milk tanker squeezed through...just!</p>
       <Image
-        src='/images/barbecue-milk-tanker.jpg'
+        src='/images/Optimized-barbecue-milk-tanker.jpg'
         alt='Milk tanker squeezing past barbecue'
         width={500}
         height={375}
