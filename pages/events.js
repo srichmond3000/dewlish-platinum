@@ -14,26 +14,28 @@ const Events = () => {
       <hr />
 
       <h2>Past events</h2>
-      <h3>Tea on the Lawn Sun 5th Sept 2021</h3>
-      <p>
-        The great and the good from our village - which explains why there were
-        so many there! - came to the picturesque gardens of Albert &amp; Nonie
-        Ross for a full blown cream tea with scones, clotted cream, strawberry
-        jam &amp; a glass of wine. All this in aid of the swelling fund for the
-        Queen&apos;s Platinum Jubilee celebrations in 2022. Glorious weather
-        weather and a chance to spend time with friends old and new while
-        relaxing in sylvan surrounds and contributing to such a good cause - why
-        not! This was the latest in a string of happenings scheduled to lead up
-        to the events themselves and which are indicative of the strong bonds of
-        community which support such efforts. Our thanks to the many who helped
-        make the day a resounding success!
-      </p>
-      <Image
-        src='/images/tea-party.jpg'
-        alt='People at the afternoon tea'
-        width={1600}
-        height={900}
-      />
+      <section>
+        <h3>Tea on the Lawn Sun 5th Sept 2021</h3>
+        <p>
+          The great and the good from our village - which explains why there
+          were so many there! - came to the picturesque gardens of Albert &amp;
+          Nonie Ross for a full blown cream tea with scones, clotted cream,
+          strawberry jam &amp; a glass of wine. All this in aid of the swelling
+          fund for the Queen&apos;s Platinum Jubilee celebrations in 2022.
+          Glorious weather weather and a chance to spend time with friends old
+          and new while relaxing in sylvan surrounds and contributing to such a
+          good cause - why not! This was the latest in a string of happenings
+          scheduled to lead up to the events themselves and which are indicative
+          of the strong bonds of community which support such efforts. Our
+          thanks to the many who helped make the day a resounding success!
+        </p>
+        <Image
+          src='/images/tea-party.jpg'
+          alt='People at the afternoon tea'
+          width={1600}
+          height={900}
+        />
+      </section>
 
       <h3>Family Barbecue Sat 31st July 2021</h3>
       <p>
