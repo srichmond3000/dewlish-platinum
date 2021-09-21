@@ -38,3 +38,23 @@ body {
   grid-area: footer;
   align-self: center;
 }
+
+.event {
+  background-color: #f5f5f5;
+  padding: 0.25em 1.5em;
+  border-radius: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.event h3 {
+  color: hsl(211, 82%, 29%);
+}
+
+a {
+  text-decoration: none;
+  color: hsl(211, 82%, 29%);
+}
+
+a:hover {
+  text-decoration: underline;
+}
