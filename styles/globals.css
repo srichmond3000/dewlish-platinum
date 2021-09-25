@@ -51,10 +51,10 @@ body {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color: hsl(211, 82%, 29%);
 }
 
 a:hover {
-  text-decoration: underline;
+  color: hsl(211, 67%, 71%);
 }

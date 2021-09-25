@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Layout from './components/layout';
 import ActiveLink from './components/nav/activeLink';
 
@@ -5,7 +6,7 @@ const Home = () => {
   return (
     <Layout title='Dewlish Platinum - Home'>
       <section>
-        <h2>Fundraising</h2>
+        <h2>Platinum Jubilee</h2>
         <p>
           The village of Dewlish has formed a Platinum Celebration committee to
           organise a series of fund raising events through 2021-2022 to raise
@@ -18,8 +19,15 @@ const Home = () => {
           <ActiveLink href='/events'>
             <span>Events</span>
           </ActiveLink>{' '}
-          page for details of our first event - a family barbecue on Sat July
-          31st.
+          page for details of our upcoming and past events.
+        </p>
+        <p>
+          Dewlish is a thriving small village in the heart of Dorset. Find out
+          more about it{' '}
+          <Link href='/dewlish'>
+            <a>here</a>
+          </Link>
+          .
         </p>
       </section>
       <section>
