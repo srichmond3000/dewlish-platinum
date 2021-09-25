@@ -12,7 +12,16 @@ const Events = () => {
 
       <section className='event'>
         <h3>Barn Dance Sat 27th Nov 2021</h3>
-        <p>Join us at Deverell Farm, Milborne St Andrew for a Barn Dance.</p>
+        <p>
+          Fasten your seat belts, take a deep breath and be prepared to be
+          amazed! Hold the date of 27th Nov this year and get yourself along to
+          Deverell Farm (Blandford road from Milborne St. Andrew) for 7.30pm and
+          let the good times roll! A Barn Dance no less, but not just any old
+          barn dance. This ‘un has the iconic Black Sheep band providing the
+          dozy doh music, has a big eats BBQ, a drink happy Bar and free
+          parking! What’s not to like? Bring the family or friends. Go home
+          smiling. You surely can’t miss it!
+        </p>
       </section>
 
       <section className='event'>
