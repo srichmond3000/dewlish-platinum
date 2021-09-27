@@ -2,7 +2,7 @@
   display: grid;
   grid-template-areas:
     'image title'
-    'nav nav';
+    'headerBottom headerBottom';
   grid-template-rows: auto;
   grid-template-columns: auto;
   background-color: hsl(211, 82%, 29%);
@@ -23,7 +23,29 @@
     font-size: 1.2rem;
   }
 
+  .headerBottom {
+    grid-area: headerBottom;
+    display: grid;
+    grid-template-areas: 'nav cta';
+  }
+
   .nav {
     grid-area: nav;
+  }
+
+  .cta {
+    grid-area: cta;
+    align-self: center;
+
+    a {
+      display: inline-block;
+      text-decoration: none;
+      color: hsl(0, 0%, 100%);
+      background-color: hsl(0, 100%, 50%); //hsl(31, 100%, 50%);
+      font-size: 1.2rem;
+      font-weight: bold;
+      padding: 0.3em 0.5em;
+      border-radius: 30px;
+    }
   }
 }
