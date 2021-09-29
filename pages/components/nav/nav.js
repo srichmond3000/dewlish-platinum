@@ -41,7 +41,7 @@ const Nav = () => {
         <span>Events</span>
       </ActiveLink>
       <ActiveLink href='/dewlish' onNav={toggleMenu}>
-        <span>Dewlish</span>
+        <span>Dewlish History</span>
       </ActiveLink>
       <ActiveLink href='/contact' onNav={toggleMenu}>
         <span>Contact</span>

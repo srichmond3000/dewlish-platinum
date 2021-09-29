@@ -3,7 +3,7 @@ import Layout from './components/layout';
 const Dewlish = () => {
   return (
     <Layout title='Dewlish Platinum - Dewlish'>
-      <h2>Dewlish Village</h2>
+      <h2>Dewlish History</h2>
       <p>
         The village of Dewlish is found cradled in a fold of the surrounding
         chalk hills straddled around a small stream, the Devil&apos;s Brook,
@@ -26,36 +26,43 @@ const Dewlish = () => {
       </p>
       <p>
         The Parish Church of All Saint&apos;s which in part dates back to the
-        12th Century is located in the centre of the village. A visit to the
-        church will show the considerable influence of the Montmorency family
-        who lived in the adjacent Manor House for many generations until the
-        male line was lost in WW1. The last member, Lady Rachel, died in 1956.
-        More so, not too many village churches can claim to be the last resting
-        place of a military Field Marshall, Sir John Michel. GCB, who died in
-        1886. At the village cross-roads close by will be seen the War Memorial,
-        primarily to men of WW1, who last a sobering total of 20 from such a
-        small community. They are, and surely always will be, remembered at a
-        ceremony which closes the roads every Remembrance Sunday.
+        12th Century is located in the centre of the village in Church Street. A
+        visit to the church will show the considerable influence of the
+        Montmorency family who lived in the adjacent nearby grand mansion, the
+        1702 built Dewlish House for many generations with the male line being
+        lost in WW1. The last member, Lady Rachel, died in 1967. More so, not
+        too many village churches can claim to be the last resting place of a
+        military Field Marshall, Sir John Michel. GCB, who died in 1886. At the
+        village cross-roads close by is the old forge and Post Office, both now
+        residential houses, opposite which is the War Memorial. The cross was
+        built in 1929 primarily to honour men of WW1, and lists a sobering total
+        of 20 from such a small community. They are, and surely always will be,
+        remembered at a ceremony which closes the roads every Remembrance
+        Sunday.
       </p>
       <p>
         It has a particularly remarkable Roman heritage with a large and opulent
-        Roman Villa being excavated in fields near the grand mansion Dewlish
-        House in 1974. A number of extensive mosaic panels from the site are now
-        housed in the Dorset Museum, Dorchester, and are of a unique nature.
-        Older than that was the remains of a fossilised tusk of an elephant
-        showing how extreme the changes have been to this area.
+        Roman Villa being excavated in fields near Dewlish House in 1974. A
+        number of extensive mosaic panels from the site are now housed in the
+        Dorset Museum, Dorchester, and are of a unique nature. Older than that
+        was the remains of a fossilised tusk of an elephant showing how extreme
+        the changes have been to this area, and traces dating from the Iron Age
+        have also been discovered.
       </p>
       <p>
         In addition to the church the village benefits from a popular and well
         supported pub, The Oak, where dogs are allowed and are all known by name
-        thus being a true part of a ‘country pub’! A busy and ancient Village
-        Hall is another focal point, hosting a wide variety of cultural and
-        community activities including a thriving Saturday morning Community
-        Café, horse racing evenings, bingo, yoga, themed dining events, barn
-        dances, Christmas and harvest dinners. The committee organise many of
-        the village&apos;s happenings such as the very well supported and
-        impressive annual Bonfire and Fireworks event and the yearly Fun Day
-        Fete with Beacon Lighting and Jubilee Fair organised when relevant.
+        thus being a true part of a ‘country pub’! Also in Church Street is the
+        other focal point, the busy and ancient Village Hall hosting a wide
+        variety of cultural and community activities including a thriving
+        Saturday morning Community Café, horse racing evenings, bingo, yoga,
+        themed dining events, barn dances, Christmas &amp; harvest dinners. The
+        Hall holds up to 100 people, with a kitchen and toilets, and can be
+        hired for occasions and events (contact Marg Groves 01258 837617). The
+        Hall committee organises many of the village&apos;s happenings such as
+        the very well supported and impressive annual Bonfire &amp; Fireworks
+        event and the yearly Fun Day Fete with Beacon Lighting and Jubilee Fair
+        organised when relevant.
       </p>
       <p>
         Whilst only a small village it is a hive of activity with a host of
