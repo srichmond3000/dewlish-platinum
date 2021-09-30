@@ -7,7 +7,23 @@ const Events = () => {
       <h2>Upcoming events</h2>
       <section className='event'>
         <h3>Bonfire Night Sat 6th Nov 2021</h3>
-        <p>Enjoy the traditional Dewlish bonfire night.</p>
+        <p>
+          <strong>Question!</strong> What is it that goes fizzzz, whooosh, BANG,
+          aaaaah - as well as munch, slurp, boogie boogie? Yes, it’s the Dewlish
+          Bonfire extravaganza! Building on the success of recent years (well,
+          not recently recent.) we can get back to the thrills and delights we
+          used to enjoy. Not only the fabulous fireworks and ‘uge bonfire, but a
+          yummy yummy BBQ, a fully licensed bar, LIVE music by the ‘Back to the
+          Shack’ band, children’s entertainment, and free parking!
+        </p>{' '}
+        <p>
+          Make a note ~ Sat. 6th. November from 5.30 at Parsonage Farm. DT2 7NB.
+          Adults £5. Kiddies over 4 £3. Families of 2 adults and max. 3 kiddies
+          £15.
+        </p>
+        <p>
+          <strong>NOT</strong> to be missed.
+        </p>
       </section>
 
       <section className='event'>
