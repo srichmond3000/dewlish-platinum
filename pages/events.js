@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import Layout from './components/layout';
 
 const Events = () => {
@@ -27,7 +28,7 @@ const Events = () => {
       </section>
 
       <section className='event'>
-        <h3>Barn Dance Sat 27th Nov 2021</h3>
+        <h3 id='barn-dance'>Barn Dance Sat 27th Nov 2021</h3>
         <p>
           Fasten your seat belts, take a deep breath and be prepared to be
           amazed! Hold the date of 27th Nov this year and get yourself along to
@@ -37,6 +38,13 @@ const Events = () => {
           dozy doh music, has a big eats BBQ, a drink happy Bar and free
           parking! What’s not to like? Bring the family or friends. Go home
           smiling. You surely can’t miss it!
+        </p>
+        <p>
+          Tickets are available at £10 per person from xxxx and xxxx. Buy online{' '}
+          <Link href='events/barndance'>
+            <a>here</a>
+          </Link>{' '}
+          for £10 plus a small booking fee.
         </p>
       </section>
 
