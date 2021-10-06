@@ -31,7 +31,7 @@ const Events = () => {
         <p>
           Fasten your seat belts, take a deep breath and be prepared to be
           amazed! Hold the date of 27th Nov this year and get yourself along to
-          Deverell Farm (Blandford road from Milborne St. Andrew) for 7.30pm and
+          Deverel Farm (Blandford road from Milborne St. Andrew) for 7.30pm and
           let the good times roll! A Barn Dance no less, but not just any old
           barn dance. This ‘un has the iconic Black Sheep band providing the
           dozy doh music, has a big eats BBQ, a drink happy Bar and free
