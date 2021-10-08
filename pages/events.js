@@ -42,8 +42,12 @@ const Events = () => {
         </p>
         <h4>Tickets</h4>
         <p>
-          Tickets are available at £10 per person from The Oak Pub at Dewlish
-          and Milborne St Andrew Post Office. They are also available{' '}
+          Tickets are available at £10 per person from{' '}
+          <strong className={styles.name}>The Oak Pub at Dewlish</strong> and{' '}
+          <strong className={styles.name}>
+            Milborne St Andrew Post Office
+          </strong>
+          . They are also available{' '}
           <span className={styles.onlineButton}>
             <Link href='events/barndance'>
               <a>online</a>
