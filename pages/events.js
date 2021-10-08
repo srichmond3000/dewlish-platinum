@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import Layout from './components/layout';
+import styles from './events.module.scss';
 
 const Events = () => {
   return (
@@ -27,7 +28,7 @@ const Events = () => {
         </p>
       </section>
 
-      <section className='event'>
+      <section className={styles.barnDance}>
         <h3 id='barn-dance'>Barn Dance Sat 27th Nov 2021</h3>
         <p>
           Fasten your seat belts, take a deep breath and be prepared to be
@@ -39,11 +40,15 @@ const Events = () => {
           parking! What’s not to like? Bring the family or friends. Go home
           smiling. You surely can’t miss it!
         </p>
+        <h4>Tickets</h4>
         <p>
-          Tickets are available at £10 per person from xxxx and xxxx. Buy online{' '}
-          <Link href='events/barndance'>
-            <a>here</a>
-          </Link>{' '}
+          Tickets are available at £10 per person from The Oak Pub at Dewlish
+          and Milborne St Andrew Post Office. They are also available{' '}
+          <span className={styles.onlineButton}>
+            <Link href='events/barndance'>
+              <a>online</a>
+            </Link>
+          </span>{' '}
           for £10 plus a small booking fee.
         </p>
       </section>
