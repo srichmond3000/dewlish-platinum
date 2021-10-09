@@ -40,20 +40,19 @@ const Events = () => {
           parking! What’s not to like? Bring the family or friends. Go home
           smiling. You surely can’t miss it!
         </p>
-        <h4>Tickets</h4>
         <p>
-          Tickets are available at £10 per person from{' '}
-          <strong className={styles.name}>The Oak Pub at Dewlish</strong> and{' '}
-          <strong className={styles.name}>
-            Milborne St Andrew Post Office
-          </strong>
-          . They are also available{' '}
-          <span className={styles.onlineButton}>
-            <Link href='events/barndance'>
-              <a>online</a>
-            </Link>
-          </span>{' '}
-          for £10 plus a small booking fee.
+          Tickest (£10 each) are available from:
+          <ul>
+            <li>
+              <span className={styles.onlineButton}>
+                <Link href='events/barndance'>
+                  <a>Online</a>
+                </Link>
+              </span>
+            </li>
+            <li>The Oak Pub at Dewlish</li>
+            <li>Milborne St Andrew Post Office</li>
+          </ul>
         </p>
       </section>
 
