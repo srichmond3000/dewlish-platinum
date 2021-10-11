@@ -1,5 +1,7 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import Layout from './components/layout';
+import styles from './events.module.scss';
 
 const Events = () => {
   return (
@@ -26,8 +28,8 @@ const Events = () => {
         </p>
       </section>
 
-      <section className='event'>
-        <h3>Barn Dance Sat 27th Nov 2021</h3>
+      <section className={styles.barnDance}>
+        <h3 id='barn-dance'>Barn Dance Sat 27th Nov 2021</h3>
         <p>
           Fasten your seat belts, take a deep breath and be prepared to be
           amazed! Hold the date of 27th Nov this year and get yourself along to
@@ -37,6 +39,20 @@ const Events = () => {
           dozy doh music, has a big eats BBQ, a drink happy Bar and free
           parking! What’s not to like? Bring the family or friends. Go home
           smiling. You surely can’t miss it!
+        </p>
+        <p>
+          Tickest (£10 each) are available from:
+          <ul>
+            <li>
+              <span className={styles.onlineButton}>
+                <Link href='events/barndance'>
+                  <a>Online</a>
+                </Link>
+              </span>
+            </li>
+            <li>The Oak Pub at Dewlish</li>
+            <li>Milborne St Andrew Post Office</li>
+          </ul>
         </p>
       </section>
 
