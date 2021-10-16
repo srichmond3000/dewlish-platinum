@@ -1,0 +1,24 @@
+.container {
+  display: grid;
+  grid-template-areas:
+    'cta'
+    'image';
+
+  .cta {
+    grid-area: cta;
+    align-self: center;
+    justify-self: center;
+    margin: 0.5em 0;
+
+    a {
+      display: inline-block;
+      text-decoration: none;
+      color: hsl(0, 0%, 100%);
+      background-color: hsl(20, 83.9%, 51.2%); //hsl(31, 100%, 50%);
+      font-size: 1.2rem;
+      font-weight: bold;
+      padding: 0.3em 0.5em;
+      border-radius: 30px;
+    }
+  }
+}
