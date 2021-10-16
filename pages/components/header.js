@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Link from 'next/link';
 import Nav from './nav/nav';
 import styles from './header.module.scss';
 
@@ -21,11 +20,6 @@ const Header = () => {
       </div>
       <div className={styles.headerBottom}>
         <Nav />
-        {/* <div className={styles.cta}>
-          <Link href='/events#barn-dance'>
-            <a>Get Barn Dance tickets</a>
-          </Link>
-        </div> */}
       </div>
     </div>
   );

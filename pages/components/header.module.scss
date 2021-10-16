@@ -23,45 +23,7 @@
     font-size: 1.2rem;
   }
 
-  // .headerBottom {
-  //   grid-area: headerBottom;
-  //   display: grid;
-  //   grid-template-areas: 'nav cta';
-  // }
-
   .headerBottom {
     grid-area: headerBottom;
   }
-
-  // .cta {
-  //   grid-area: cta;
-  //   align-self: center;
-  //   justify-self: center;
-
-  //   a {
-  //     display: inline-block;
-  //     text-decoration: none;
-  //     color: hsl(0, 0%, 100%);
-  //     background-color: hsl(20, 83.9%, 51.2%); //hsl(31, 100%, 50%);
-  //     font-size: 1.2rem;
-  //     font-weight: bold;
-  //     padding: 0.3em 0.5em;
-  //     border-radius: 30px;
-  //   }
-  // }
 }
-
-// @media screen and (max-width: 680px) {
-//   .container {
-//     .cta {
-//       align-self: flex-start;
-//       justify-self: self-end;
-//       margin-top: 0.7em;
-//       margin-right: 0.4em;
-
-//       a {
-//         font-size: 0.9rem;
-//       }
-//     }
-//   }
-// }
