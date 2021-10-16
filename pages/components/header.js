@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Link from 'next/link';
 import Nav from './nav/nav';
 import styles from './header.module.scss';
 
@@ -20,14 +19,7 @@ const Header = () => {
         <span className={styles.subTitle}>- Dewlish Village Celebration</span>
       </div>
       <div className={styles.headerBottom}>
-        <div className={styles.nav}>
-          <Nav />
-        </div>
-        <div className={styles.cta}>
-          <Link href='/events#barn-dance'>
-            <a>Get Barn Dance tickets</a>
-          </Link>
-        </div>
+        <Nav />
       </div>
     </div>
   );
