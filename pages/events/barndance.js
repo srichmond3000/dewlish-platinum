@@ -15,8 +15,8 @@ const BarnDance = () => {
       <p>
         Come and join us at Deverel Farm, Milborne St Andrew, DT11 0HX for an
         evening of dance, drinks, eats and merriment. Tickets available online
-        below, or from either Milborne St Andrew Post Office or The Oak Pub,
-        Dewlish at £10 per person (plus ~50p booking fee).
+        below (plus 54p booking fee), or from either Milborne St Andrew Post
+        Office or The Oak Pub, Dewlish at £10 per person .
       </p>
       <p>
         With ample car parking on site, doors and bar open at 7:30pm and dancing
