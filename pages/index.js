@@ -15,7 +15,7 @@ const Home = () => {
         </div>
         <div className={styles.image}>
           <Image
-            src='/images/barn-dance-poster.jpg'
+            src='/images/barn-dance-poster-min.jpg'
             alt='Barn dance poster'
             width={1131}
             height={1600}
