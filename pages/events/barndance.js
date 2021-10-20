@@ -12,6 +12,7 @@ const BarnDance = () => {
   return (
     <Layout title='Barn Dance'>
       <h2>Barn Dance Sat 27th Nov 2021</h2>
+      <div id='embedTS_JFHDE' style={{ width: '100%' }}></div>
       <p>
         Come and join us at Deverel Farm, Milborne St Andrew, DT11 0HX for an
         evening of dance, drinks, eats and merriment. Tickets available online
@@ -31,8 +32,6 @@ const BarnDance = () => {
       <p>
         Proceeds from this event will go to the Dewlish Platinum Jubilee fund.
       </p>
-
-      <div id='embedTS_JFHDE' style={{ width: '100%' }}></div>
     </Layout>
   );
 };
