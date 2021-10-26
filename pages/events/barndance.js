@@ -5,11 +5,11 @@ const Barndance = () => {
   return (
     <Layout title='Dewlish Platinum - Barndance'>
       <section>
-        <h2>Barn Dance - cancellation</h2>
+        <h2>Barn Dance - postponed till Spring 2022</h2>
         <p>
           Unfortunately, due to the recent surge in Covid cases we had no
           alternative but to postpone this event. It will now take place in
-          spring 2022. Watch this space for the new date!
+          Spring 2022. Watch this space for the new date!
         </p>
         <p>
           Head over to the{' '}

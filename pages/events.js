@@ -33,11 +33,11 @@ const Events = () => {
       </section>
 
       <section className='event'>
-        <h3>Barn Dance</h3>
+        <h3>Barn Dance - Spring 2022</h3>
         <p>
           Unfortunately, due to the recent surge in Covid cases we had no
           alternative but to postpone this event. It will now take place in
-          spring 2022. Watch this space for the new date!
+          Spring 2022. Watch this space for the new date!
         </p>
       </section>
       <hr />
