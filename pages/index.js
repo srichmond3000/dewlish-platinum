@@ -2,26 +2,10 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Layout from './components/layout';
 import ActiveLink from './components/nav/activeLink';
-import styles from './index.module.scss';
 
 const Home = () => {
   return (
     <Layout title='Dewlish Platinum - Home'>
-      <section className={styles.container}>
-        <div className={styles.cta}>
-          <Link href='/events/barndance'>
-            <a>Get Barn Dance tickets</a>
-          </Link>
-        </div>
-        <div className={styles.image}>
-          <Image
-            src='/images/barn-dance-poster-min.jpg'
-            alt='Barn dance poster'
-            width={1131}
-            height={1600}
-          />
-        </div>
-      </section>
       <section>
         <h2>Platinum Jubilee</h2>
         <p>
