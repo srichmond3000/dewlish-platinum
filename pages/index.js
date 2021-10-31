@@ -6,6 +6,15 @@ import ActiveLink from './components/nav/activeLink';
 const Home = () => {
   return (
     <Layout title='Dewlish Platinum - Home'>
+      <br />
+      <section className='event'>
+        <h3>Barn Dance - postponed till Spring 2022</h3>
+        <p>
+          Unfortunately, due to the recent surge in Covid cases we had no
+          alternative but to postpone this event. It will now take place in
+          Spring 2022. Watch this space for the new date!
+        </p>
+      </section>
       <section>
         <h2>Platinum Jubilee</h2>
         <p>
