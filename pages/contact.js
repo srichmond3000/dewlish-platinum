@@ -69,7 +69,9 @@ const Contact = () => {
     <Layout title='Dewlish Platinum - Contact'>
       <h2>Contact Us</h2>
       <span>
-        Enter your details and message and we&apos;ll get back to you.
+        Enter your details and message and we&apos;ll get back to you, or email
+        us at{' '}
+        <a href='mailto:info@dewlishplatinum.org'>info@dewlishplatinum.org</a>
       </span>
       {/* This form is just to allow the Netlify bot to find the netlfiy attribute */}
       <form name='contact' netlify netlify-honeypot='bot-field' hidden>
