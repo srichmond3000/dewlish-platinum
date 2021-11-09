@@ -8,11 +8,11 @@ const Home = () => {
     <Layout title='Dewlish Platinum - Home'>
       <br />
       <section className='event'>
-        <h3>Barn Dance - postponed till Spring 2022</h3>
+        <h3>Barn Dance - postponed till Sat 16th April 2022</h3>
         <p>
           Unfortunately, due to the recent surge in Covid cases we had no
-          alternative but to postpone this event. It will now take place in
-          Spring 2022. Watch this space for the new date!
+          alternative but to postpone this event. It will now take place on Sat
+          16th April. Watch this space for further details!
         </p>
       </section>
       <section>
