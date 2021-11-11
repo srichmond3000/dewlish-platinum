@@ -6,6 +6,18 @@ import ActiveLink from './components/nav/activeLink';
 const Home = () => {
   return (
     <Layout title='Dewlish Platinum - Home'>
+      <p>
+        The village of Dewlish is organising a series of fund raising events
+        through 2021-2022 to raise money to celebrate the Queen&apos;s Platinum
+        Jubilee over the extended bank holiday weekend of Thurs 2nd to Sun 5th
+        June 2022.
+      </p>
+      <Image
+        src='/images/village-hall-new.jpeg'
+        alt='Dewlish village hall'
+        width={960}
+        height={540}
+      />
       <br />
       <section className='event'>
         <h3>Barn Dance - postponed till Sat 16th April 2022</h3>
@@ -16,13 +28,8 @@ const Home = () => {
         </p>
       </section>
       <section>
-        <h2>Platinum Jubilee</h2>
-        <p>
-          The village of Dewlish has formed a Platinum Celebration committee to
-          organise a series of fund raising events through 2021-2022 to raise
-          money to celebrate the Queen&apos;s Platinum Jubilee over the extended
-          bank holiday weekend of Thurs 2nd to Sun 5th June 2022.
-        </p>
+        <h2>Events</h2>
+
         <p>
           See the{' '}
           <ActiveLink href='/events'>
