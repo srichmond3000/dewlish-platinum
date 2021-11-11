@@ -6,26 +6,6 @@ const Events = () => {
   return (
     <Layout title='Dewlish Platinum - Events'>
       <h2>Upcoming events</h2>
-      <section className='event'>
-        <h3>Bonfire Night Sat 6th Nov 2021</h3>
-        <p>
-          <strong>Question!</strong> What is it that goes fizzzz, whooosh, BANG,
-          aaaaah - as well as munch, slurp, boogie boogie? Yes, it’s the Dewlish
-          Bonfire extravaganza! Building on the success of recent years (well,
-          not recently recent.) we can get back to the thrills and delights we
-          used to enjoy. Not only the fabulous fireworks and ‘uge bonfire, but a
-          yummy yummy BBQ, a fully licensed bar, LIVE music by the ‘Back to the
-          Shack’ band, children’s entertainment, and free parking!
-        </p>{' '}
-        <p>
-          Make a note ~ Sat. 6th. November from 5.30 at Parsonage Farm. DT2 7NB.
-          Adults £5. Kiddies over 4 £3. Families of 2 adults and max. 3 kiddies
-          £15.
-        </p>
-        <p>
-          <strong>NOT</strong> to be missed.
-        </p>
-      </section>
 
       <section className='event'>
         <h3>Auction of Promises Sat 12th Feb 2022</h3>
@@ -43,6 +23,38 @@ const Events = () => {
       <hr />
 
       <h2>Past events</h2>
+      <section className='event'>
+        <h3>Bonfire Night Sat 6th Nov 2021</h3>
+        <p>
+          The Dewlish Bonfire &amp; Firework extravaganza on Sat. 6th. Nov. very
+          much lived up to the pre-event publicity! There was an element of
+          folks being released from Covid restraints as car parking was nil
+          problem, the live band created a thread of sound to permeate the
+          nearby BBQ, cake stall, soup &amp; roll + other catering tents, not
+          forgetting the ever busy bar – and the madding throng were kept
+          entertained, fed and watered. The bonfire then blazed into the night
+          spreading a welcome heat on a tad fresh evening before the fireworks
+          crowned the occasion. This was a display which would not have been out
+          of place in any nearby large town or other major conurbation such was
+          the sheer magnificence of the truly awesome spectacle. Suffice to say,
+          these happenings do not conduct themselves and thanks must be said to
+          the many villagers who staffed and ran the stalls, parking and the
+          flash, bang, whoosh firework show. Particular thanks though, must go
+          to the John Martins, Snr. &amp; Jnr., who not only allowed the fields
+          to be used but provided &amp; built the bonfire itself. Good people!
+        </p>
+        <p>
+          Note in the diary for 2022. 7th. November. Dewlish Bonfire &amp;
+          Firework party. <strong>Do NOT miss it!</strong>
+        </p>
+        <Image
+          src='/images/bonfire-night.jpg'
+          alt='Bonfire night'
+          width={2048}
+          height={1536}
+        />
+      </section>
+
       <section className='event'>
         <h3>Tea on the Lawn Sun 5th Sept 2021</h3>
         <p>
