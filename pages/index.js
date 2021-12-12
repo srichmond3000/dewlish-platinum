@@ -11,12 +11,17 @@ const Home = () => {
         nationally with an extended bank holiday weekend from Thurs 2nd to Sun
         5th June. The village of Dewlish is planning to organise several events
         to mark the occasion and also provide an opportunity for the community
-        to come together again after the disruption caused by Covid. The main
-        events will be the lighting of a beacon on Whitelands Down above the
-        village on Thurs 2nd: part of the national network of beacons, and a
-        dance &amp; barbecue on Sat 4th June. To help fund this we will be
-        holding a series of events in the run up to the Platinum Jubilee
-        weekend, which will be fun social occasions also.
+        to come together again after the disruption caused by Covid.
+        <p>
+          The main events will be the lighting of a beacon on Whitelands Down
+          above the village on Thurs 2nd: part of the national network of
+          beacons, and a dance &amp; barbecue on Sat 4th June.
+        </p>
+        <p>
+          To help fund this we will be holding a series of events in the run up
+          to the Platinum Jubilee weekend, which will be fun social occasions
+          also.
+        </p>
       </p>
       <Image
         src='/images/village-hall-new.jpeg'
