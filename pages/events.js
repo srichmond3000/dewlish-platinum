@@ -8,17 +8,18 @@ const Events = () => {
       <h2>Upcoming events</h2>
 
       <section className='event'>
-        <h3>Auction of Promises Sat 12th Feb 2022</h3>
+        <h3>Auction of Promises Sat 2nd April 2022</h3>
+        <p>Details to follow</p>
+      </section>
+
+      <section className='event'>
+        <h3>Treasure Hunt Sat 9th April 2022</h3>
         <p>Details to follow</p>
       </section>
 
       <section className='event'>
         <h3>Barn Dance - Sat 16th April</h3>
-        <p>
-          Unfortunately, due to the recent surge in Covid cases we had no
-          alternative but to postpone this event. It will now take place on Sat
-          16th April 2022. Watch this space for further details!
-        </p>
+        <p>Watch this space for further details!</p>
       </section>
       <hr />
 
