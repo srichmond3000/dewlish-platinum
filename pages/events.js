@@ -18,8 +18,8 @@ const Events = () => {
       </section>
 
       <section className='event'>
-        <h3>Barn Dance - Sat 16th April</h3>
-        <p>Watch this space for further details!</p>
+        <h3>Barn Dance - Sat 16th April 2022</h3>
+        <p>Details to follow.</p>
       </section>
       <hr />
 
