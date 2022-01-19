@@ -33,9 +33,9 @@ const Home = () => {
       <section>
         <h2>Events</h2>
         <p>
-          We&apos;re looking forward to an Auction of Promises and a Barn Dance
-          in the New Year. Previous events include the Dewlish Bonfire Night,
-          Tea on the Lawn and a family barbecue.
+          We&apos;re looking forward to an Auction of Promises, Treasure Hunt,
+          and a Barn Dance in the New Year. Previous events include the Dewlish
+          Bonfire Night, Tea on the Lawn and a family barbecue.
         </p>
         <p>
           See the{' '}
