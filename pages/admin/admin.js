@@ -9,6 +9,16 @@ const Admin = () => {
     <Layout title='Admin'>
       <h2>Admin area</h2>
       <h3>Minutes of meetings</h3>
+      <a href='https://ucarecdn.com/57491cc8-b705-43cc-a755-f8374423611e/PlatinumJubileeCommittee_MeetingNotes_20220118.docx'>
+        18th Jan 2022
+      </a>
+      <br />
+      <br />
+      <a href='https://ucarecdn.com/6fd57290-e4df-4228-8fe1-d056e54904c5/PlatinumJubileeCommittee_MeetingNotes_20211207.docx'>
+        7th Dec 2021
+      </a>
+      <br />
+      <br />
       <a href='https://ucarecdn.com/1cd69ac8-852c-472e-9ecd-96a2e858bd2d/PlatinumJubileeCommittee_MeetingNotes_20211019.pdf'>
         19th Oct 2021
       </a>
