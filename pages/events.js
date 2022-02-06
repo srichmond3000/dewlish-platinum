@@ -13,8 +13,12 @@ const Events = () => {
       </section>
 
       <section className='event'>
-        <h3>Treasure Hunt Sat 9th April 2022</h3>
-        <p>Details to follow</p>
+        <h3>Treasure Hunt, 2pm Sat 9th April 2022</h3>
+        <p>
+          Join us for a treasure hunt starting at Dewlish Village Hall. Finish
+          at The Oak Pub, Dewlish, assuming you make it back for closing time!
+          £10 per car. Any questions, contact John Seymour on 01258 837291.
+        </p>
       </section>
 
       <section className='event'>
