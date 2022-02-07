@@ -6,7 +6,23 @@ const Events = () => {
   return (
     <Layout title='Dewlish Platinum - Events'>
       <h2>Upcoming events</h2>
-
+      <section className='event'>
+        <h3>Jubilee Quiz</h3>
+        <p>
+          Welcome to the Dewlish Platinum Jubilee 2022 Quiz! Hopefully you’ll
+          find it challenging and fun with at least a few of the questions being
+          impervious to a Google search.
+        </p>
+        <p>
+          £2 per entry. Ask any committee member for a question form, or Phil
+          (contact details below).
+        </p>
+        <p>
+          Answers to Phil Cooper, 3 Manor Close, Dewlish, DT2 7SB by 31st May
+          2022 (or email ktnphil@btinternet.com). £20 prize for the winner (name
+          will be announced in the Village News).
+        </p>
+      </section>
       <section className='event'>
         <h3>Auction of Promises Sat 2nd April 2022</h3>
         <p>Details to follow</p>
@@ -18,6 +34,11 @@ const Events = () => {
           Join us for a treasure hunt starting at Dewlish Village Hall. Finish
           at The Oak Pub, Dewlish, assuming you make it back for closing time!
           £10 per car. Any questions, contact John Seymour on 01258 837291.
+          Click{' '}
+          <a href='https://ucarecdn.com/e039c4a0-9e07-4025-8871-b69a640b9214/TreasureHunt.pdf'>
+            here for a flyer
+          </a>
+          .
         </p>
       </section>
 
