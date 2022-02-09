@@ -29,13 +29,13 @@ const Events = () => {
       </section>
 
       <section className='event'>
-        <h3>Treasure Hunt, 2pm Sat 9th April 2022</h3>
+        <h3>Treasure Hunt, 2pm Sun 10th April 2022</h3>
         <p>
           Join us for a treasure hunt starting at Dewlish Village Hall. Finish
           at The Oak Pub, Dewlish, assuming you make it back for closing time!
           £10 per car. Any questions, contact John Seymour on 01258 837291.
           Click{' '}
-          <a href='https://ucarecdn.com/e039c4a0-9e07-4025-8871-b69a640b9214/TreasureHunt.pdf'>
+          <a href='https://ucarecdn.com/c71a2c6b-ddf9-4cac-a2dd-4cb4659d8b2f/TreasureHunt.pdf'>
             here for a flyer
           </a>
           .
