@@ -8,6 +8,14 @@
 @media screen and (min-width: 600px) {
   .posterContainer {
     grid-template-areas: 'poster details';
-    grid-template-columns: auto;
+    // grid-template-columns: auto;
   }
+}
+
+.details {
+  grid-area: details;
+}
+
+.poster {
+  grid-area: poster;
 }
