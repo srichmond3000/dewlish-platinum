@@ -3,8 +3,10 @@
   grid-template-areas:
     'details'
     'poster';
+}
 
-  @media (min-width: 600px) {
+@media screen and (min-width: 600px) {
+  .posterContainer {
     grid-template-areas: 'poster details';
     grid-template-columns: auto;
   }

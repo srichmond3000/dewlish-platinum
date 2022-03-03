@@ -9,13 +9,14 @@ const Home = () => {
     <Layout title='Dewlish Platinum - Home'>
       <div className={styles.posterContainer}>
         <div className={styles.details}>Text</div>
-        <Image
-          src='/images/barnDancePoster.jpg'
-          alt='Barn Dance poster'
-          width={1200}
-          height={1697}
-          className={styles.poster}
-        />
+        <div className={styles.poster}>
+          <Image
+            src='/images/barnDancePoster.jpg'
+            alt='Barn Dance poster'
+            width={1200}
+            height={1697}
+          />
+        </div>
       </div>
       <p>
         This year sees the Queen&apos;s Platinum Jubilee which will be
