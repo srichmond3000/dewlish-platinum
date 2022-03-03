@@ -27,8 +27,8 @@ const Header = () => {
         <Nav />
       </div>
       <div className={styles.cta}>
-        <Link href='/events/barndance' className={styles.button}>
-          Get Barn Dance tickets
+        <Link href='/events/barndance'>
+          <a className={styles.button}>Get Barn Dance tickets</a>
         </Link>
       </div>
     </div>
