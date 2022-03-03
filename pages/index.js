@@ -10,12 +10,14 @@ const Home = () => {
       <div className={styles.posterContainer}>
         <div className={styles.details}>Text</div>
         <div className={styles.poster}>
-          <Image
-            src='/images/barnDancePoster.jpg'
-            alt='Barn Dance poster'
-            width={1200}
-            height={1697}
-          />
+          <ActiveLink href='/events/barndance'>
+            <Image
+              src='/images/barnDancePoster.jpg'
+              alt='Barn Dance poster'
+              width={1200}
+              height={1697}
+            />
+          </ActiveLink>
         </div>
       </div>
       <p>
