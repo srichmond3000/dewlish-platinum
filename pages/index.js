@@ -2,13 +2,16 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Layout from './components/layout';
 import ActiveLink from './components/nav/activeLink';
+import BarnDanceDetails from './components/barnDanceDetails';
 import styles from './index.module.scss';
 
 const Home = () => {
   return (
     <Layout title='Dewlish Platinum - Home'>
       <div className={styles.posterContainer}>
-        <div className={styles.details}>Text</div>
+        <div className={styles.details}>
+          <BarnDanceDetails />
+        </div>
         <div className={styles.poster}>
           <ActiveLink href='/events/barndance'>
             <Image
