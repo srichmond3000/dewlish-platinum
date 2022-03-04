@@ -23,6 +23,7 @@ const Home = () => {
           </ActiveLink>
         </div>
       </div>
+      <h2>About</h2>
       <p>
         This year sees the Queen&apos;s Platinum Jubilee which will be
         celebrated nationally with an extended bank holiday weekend from Thurs
