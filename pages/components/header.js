@@ -23,8 +23,13 @@ const Header = () => {
         <h1>The Queen&apos;s Platinum Jubilee 2022</h1>
         <span className={styles.subTitle}>- Dewlish Village Celebration</span>
       </div>
-      <div className={styles.headerBottom}>
+      <div className={styles.nav}>
         <Nav />
+      </div>
+      <div className={styles.cta}>
+        <Link href='/events/barndance'>
+          <a className={styles.button}>Get Barn Dance tickets</a>
+        </Link>
       </div>
     </div>
   );

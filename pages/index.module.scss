@@ -1,0 +1,24 @@
+.posterContainer {
+  display: grid;
+  grid-template-areas:
+    'details'
+    'poster';
+}
+
+@media screen and (min-width: 600px) {
+  .posterContainer {
+    grid-template-areas: 'poster details';
+
+    .details {
+      padding-left: 0.5em;
+    }
+  }
+}
+
+.details {
+  grid-area: details;
+}
+
+.poster {
+  grid-area: poster;
+}

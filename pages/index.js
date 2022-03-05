@@ -2,10 +2,28 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Layout from './components/layout';
 import ActiveLink from './components/nav/activeLink';
+import BarnDanceDetails from './components/barnDanceDetails';
+import styles from './index.module.scss';
 
 const Home = () => {
   return (
     <Layout title='Dewlish Platinum - Home'>
+      <div className={styles.posterContainer}>
+        <div className={styles.details}>
+          <BarnDanceDetails />
+        </div>
+        <div className={styles.poster}>
+          <ActiveLink href='/events/barndance'>
+            <Image
+              src='/images/barnDancePoster.jpg'
+              alt='Barn Dance poster'
+              width={1200}
+              height={1697}
+            />
+          </ActiveLink>
+        </div>
+      </div>
+      <h2>About</h2>
       <p>
         This year sees the Queen&apos;s Platinum Jubilee which will be
         celebrated nationally with an extended bank holiday weekend from Thurs
