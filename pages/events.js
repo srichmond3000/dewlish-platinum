@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import Layout from './components/layout';
+import styles from './events.module.scss';
 
 const Events = () => {
   return (
@@ -56,7 +57,7 @@ const Events = () => {
         </p>
         <p>
           Tickest (£10 each) are available from:
-          <ul>
+          <ul className={styles.listItem}>
             <li>
               <span>
                 <Link href='events/barndance'>

@@ -30,7 +30,7 @@
   .cta {
     grid-area: cta;
     justify-self: end;
-    padding: 0.85em 0;
+    padding: 0.85em;
 
     .button {
       background-color: red;
@@ -38,8 +38,18 @@
       text-decoration: none;
       font-weight: 700;
       font-size: 0.9rem;
-      padding: 0.3em 0.2em;
+      padding: 0.3em 0.5em;
       border-radius: 0.75em;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    .cta {
+      .button {
+        font-size: 0.7rem;
+      }
     }
   }
 }

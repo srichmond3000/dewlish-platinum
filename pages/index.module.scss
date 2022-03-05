@@ -9,6 +9,10 @@
   .posterContainer {
     grid-template-areas: 'poster details';
 
+    .poster {
+      padding-top: 0.3em;
+    }
+
     .details {
       padding-left: 0.5em;
     }
