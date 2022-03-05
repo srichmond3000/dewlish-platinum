@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import styles from './barnDanceDetails.module.scss';
 
 const BarnDanceDetails = () => (
   <>
@@ -7,7 +8,7 @@ const BarnDanceDetails = () => (
       Come and join us at Deverel Farm, Milborne St Andrew, DT11 0HX for an
       evening of dance, drinks, eats and merriment. Tickets at £10 each
       available from:
-      <ul>
+      <ul className={styles.listItem}>
         <li>
           <Link href='/events/barndance'>Online</Link>
         </li>

@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import Layout from '../components/layout';
-import BarnDanceDetails from '../components/barnDanceDetails';
+import styles from './barndance.module.scss';
 
 const BarnDance = () => {
   useEffect(() => {
@@ -18,7 +18,7 @@ const BarnDance = () => {
         Come and join us at Deverel Farm, Milborne St Andrew, DT11 0HX on Sat
         16th April 2022 for an evening of dance, drinks, eats and merriment.
         Tickets at £10 also available from:
-        <ul>
+        <ul className={styles.listItem}>
           <li>
             The Oak Pub, Dewlish{' '}
             <a href='https://goo.gl/maps/xjTkSuuL3UYNY341A'>map</a>
