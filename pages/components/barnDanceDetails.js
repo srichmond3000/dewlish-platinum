@@ -12,10 +12,12 @@ const BarnDanceDetails = () => (
           <Link href='/events/barndance'>Online</Link>
         </li>
         <li>
-          The Oak Pub, Dewlish <a href='#'>map</a>
+          The Oak Pub, Dewlish{' '}
+          <a href='https://goo.gl/maps/xjTkSuuL3UYNY341A'>map</a>
         </li>
         <li>
-          Milborne St Andrew Post Office <a href='#'>map</a>
+          Milborne St Andrew Post Office{' '}
+          <a href='https://goo.gl/maps/7gPyWgLo99kQ52jM6'>map</a>
         </li>
       </ul>
     </p>

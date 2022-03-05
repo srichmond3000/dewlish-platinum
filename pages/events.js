@@ -64,8 +64,14 @@ const Events = () => {
                 </Link>
               </span>
             </li>
-            <li>The Oak Pub at Dewlish</li>
-            <li>Milborne St Andrew Post Office</li>
+            <li>
+              The Oak Pub at Dewlish{' '}
+              <a href='https://goo.gl/maps/xjTkSuuL3UYNY341A'>map</a>
+            </li>
+            <li>
+              Milborne St Andrew Post Office{' '}
+              <a href='https://goo.gl/maps/7gPyWgLo99kQ52jM6'>map</a>
+            </li>
           </ul>
         </p>
       </section>
