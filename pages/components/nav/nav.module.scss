@@ -24,6 +24,26 @@
   &:nth-child(n + 2) {
     margin-left: $layout-link-margin;
   }
+
+  .dropdownContainer {
+    position: relative;
+    display: inline-block;
+
+    .dropdownButton {
+    }
+
+    .dropdownContent {
+      display: none;
+      position: absolute;
+      width: 150px;
+      background-color: lightgray;
+      z-index: 100;
+    }
+  }
+
+  .dropdownContainer:hover .dropdownContent {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 680px) {

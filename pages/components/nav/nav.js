@@ -37,9 +37,14 @@ const Nav = () => {
       <ActiveLink href='/' onNav={toggleMenu}>
         <span>Home</span>
       </ActiveLink>
-      <ActiveLink href='/events' onNav={toggleMenu}>
-        <span>Events</span>
-      </ActiveLink>
+      <div className={styles.dropdownContainer}>
+        <button className={styles.dropdownButton}>Events</button>
+        <div className={styles.dropdownContent}>
+          <ActiveLink href='/events' onNav={toggleMenu}>
+            <span>Events</span>
+          </ActiveLink>
+        </div>
+      </div>
       <ActiveLink href='/dewlish' onNav={toggleMenu}>
         <span>Dewlish History</span>
       </ActiveLink>
