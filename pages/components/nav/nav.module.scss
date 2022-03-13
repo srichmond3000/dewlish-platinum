@@ -55,6 +55,10 @@
         display: block;
       }
     }
+
+    .dropdownButton {
+      display: none;
+    }
   }
 }
 
@@ -66,6 +70,10 @@
       &.icon {
         display: block;
       }
+    }
+
+    .dropdownButton {
+      display: block;
     }
   }
 }
