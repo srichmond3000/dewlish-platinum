@@ -6,6 +6,7 @@ import styles from './nav.module.scss';
 
 const Nav = () => {
   const [expandMenu, setExpandMenu] = useState(false);
+  const [pointDown, setPointDown] = useState(false);
   const { user } = useUser();
 
   const renderAdmin = () => {
@@ -27,9 +28,15 @@ const Nav = () => {
     setExpandMenu(!expandMenu);
   };
 
+  const handleHover = () => {
+    setPointDown(!pointDown);
+  };
+
   let navClass = expandMenu
     ? `${styles.nav} ${styles.responsive}`
     : `${styles.nav}`;
+
+  let dropDownClass = pointDown ? 'fa fa-angle-down' : 'fa fa-angle-right';
 
   return (
     <nav className={navClass}>
@@ -38,7 +45,14 @@ const Nav = () => {
         <span>Home</span>
       </ActiveLink>
       <div className={styles.dropdownContainer}>
-        <button className={styles.dropdownButton}>Events</button>
+        <div
+          className={styles.dropdownButton}
+          onMouseEnter={handleHover}
+          onMouseLeave={handleHover}
+        >
+          <button>Events</button>
+          <i className={dropDownClass}></i>
+        </div>
         <div className={styles.dropdownContent}>
           <ActiveLink href='/events' onNav={toggleMenu}>
             <span>Events</span>

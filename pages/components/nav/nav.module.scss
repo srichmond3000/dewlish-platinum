@@ -75,5 +75,13 @@
     .dropdownButton {
       display: block;
     }
+
+    .dropdownContainer .dropdownContent {
+      display: none;
+    }
+
+    .dropdownContainer:hover .dropdownContent {
+      display: block;
+    }
   }
 }
