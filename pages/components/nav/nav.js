@@ -36,7 +36,7 @@ const Nav = () => {
     ? `${styles.nav} ${styles.responsive}`
     : `${styles.nav}`;
 
-  let dropDownClass = pointDown ? 'fa fa-angle-down' : 'fa fa-angle-right';
+  let dropDownClass = 'fa fa-angle-down'; //pointDown ? 'fa fa-angle-down' : 'fa fa-angle-right';
 
   return (
     <nav className={navClass}>
@@ -50,12 +50,21 @@ const Nav = () => {
           onMouseEnter={handleHover}
           onMouseLeave={handleHover}
         >
-          <button>Events</button>
+          <span>Events </span>
           <i className={dropDownClass}></i>
         </div>
         <div className={styles.dropdownContent}>
-          <ActiveLink href='/events' onNav={toggleMenu}>
-            <span>Events</span>
+          <ActiveLink href='/events/auction' onNav={toggleMenu}>
+            <span>Auction of Promises</span>
+          </ActiveLink>
+          <ActiveLink href='/events/barndance' onNav={toggleMenu}>
+            <span>Barn Dance</span>
+          </ActiveLink>
+          <ActiveLink href='/events/treasurehunt' onNav={toggleMenu}>
+            <span>Treasure Hunt</span>
+          </ActiveLink>
+          <ActiveLink href='/events/quiz' onNav={toggleMenu}>
+            <span>Quiz</span>
           </ActiveLink>
         </div>
       </div>
