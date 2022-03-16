@@ -36,7 +36,7 @@ const Nav = () => {
     ? `${styles.nav} ${styles.responsive}`
     : `${styles.nav}`;
 
-  let dropDownClass = 'fa fa-angle-down'; //pointDown ? 'fa fa-angle-down' : 'fa fa-angle-right';
+  let dropDownClass = pointDown ? 'fa fa-angle-up' : 'fa fa-angle-down';
 
   return (
     <nav className={navClass}>
@@ -44,12 +44,12 @@ const Nav = () => {
       <ActiveLink href='/' onNav={toggleMenu}>
         <span>Home</span>
       </ActiveLink>
-      <div className={styles.dropdownContainer}>
-        <div
-          className={styles.dropdownButton}
-          onMouseEnter={handleHover}
-          onMouseLeave={handleHover}
-        >
+      <div
+        className={styles.dropdownContainer}
+        onMouseEnter={handleHover}
+        onMouseLeave={handleHover}
+      >
+        <div className={styles.dropdownButton}>
           <span>Events </span>
           <i className={dropDownClass}></i>
         </div>

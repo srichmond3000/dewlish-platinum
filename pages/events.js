@@ -26,7 +26,7 @@ const Events = () => {
       </section>
       <section className='event'>
         <h3>Auction of Promises Sat 2nd April 2022</h3>
-        <p>Details to follow</p>
+        <Link href='/events/auction'>Details</Link>
       </section>
 
       <section className='event'>

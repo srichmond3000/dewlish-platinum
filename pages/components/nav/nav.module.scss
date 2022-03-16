@@ -28,9 +28,7 @@
   .dropdownContainer {
     position: relative;
     display: inline-block;
-
-    .dropdownButton {
-    }
+    padding: $layout-link-padding;
 
     .dropdownContent {
       display: none;
