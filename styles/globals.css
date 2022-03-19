@@ -51,6 +51,10 @@ body {
   color: hsl(211, 82%, 29%);
 }
 
+.event.top-event {
+  margin-top: 0.5em;
+}
+
 a {
   text-decoration: underline;
   color: hsl(211, 82%, 29%);
