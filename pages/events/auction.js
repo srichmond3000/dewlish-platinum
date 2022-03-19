@@ -1,8 +1,9 @@
 import Layout from '../components/layout';
+import styles from './auction.module.scss';
 
 const Auction = () => (
   <Layout title='Auction'>
-    <h3>Auction of Promises Sat 2nd April 2022</h3>
+    <h2 className={styles.heading}>Auction of Promises Sat 2nd April 2022</h2>
     <p>Details to follow</p>
   </Layout>
 );

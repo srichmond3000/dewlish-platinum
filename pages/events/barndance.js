@@ -12,7 +12,7 @@ const BarnDance = () => {
 
   return (
     <Layout title='Barn Dance'>
-      <h2>Barn Dance Sat 16th April 2022</h2>
+      <h2 className={styles.heading}>Barn Dance Sat 16th April 2022</h2>
       <div id='embedTS_JFHDE' style={{ width: '100%' }}></div>
       <p>
         Come and join us at Deverel Farm, Milborne St Andrew, DT11 0HX on Sat

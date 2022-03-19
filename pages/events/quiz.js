@@ -1,8 +1,9 @@
 import Layout from '../components/layout';
+import styles from './quiz.module.scss';
 
 const Quiz = () => (
   <Layout title='Quiz'>
-    <h3>Jubilee Quiz</h3>
+    <h2 className={styles.heading}>Jubilee Quiz</h2>
     <p>
       Welcome to the Dewlish Platinum Jubilee 2022 Quiz! Hopefully you’ll find
       it challenging and fun with at least a few of the questions being

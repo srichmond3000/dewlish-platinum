@@ -1,0 +1,32 @@
+@import '../../styles/variables.scss';
+
+.heading {
+  color: $header-background-colour;
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    'image'
+    'text';
+
+  .image {
+    grid-area: image;
+    justify-self: center;
+  }
+
+  .text {
+    grid-area: text;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .container {
+    display: grid;
+    grid-template-areas: 'image text';
+
+    .text {
+      margin-left: 1em;
+    }
+  }
+}

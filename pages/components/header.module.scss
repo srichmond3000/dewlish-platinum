@@ -1,3 +1,5 @@
+@import '../../styles/variables.scss';
+
 .container {
   display: grid;
   grid-template-areas:
@@ -5,8 +7,8 @@
     'nav cta';
   grid-template-rows: auto;
   grid-template-columns: auto 1fr;
-  background-color: hsl(211, 82%, 29%);
-  color: hsl(0, 0%, 100%);
+  background-color: $header-background-colour;
+  color: $header-colour;
 
   .image {
     grid-area: image;
