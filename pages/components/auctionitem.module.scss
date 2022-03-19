@@ -1,0 +1,29 @@
+.item {
+  display: grid;
+  grid-template-areas:
+    'header'
+    'description'
+    'reserve';
+  box-shadow: 0.1em 0.1em hsl(31, 100%, 29%);
+}
+
+.header {
+  grid-area: header;
+  display: flex;
+  background-color: hsl(41, 82%, 29%);
+  color: hsl(0, 0%, 100%);
+  padding: 0.7em;
+  border-radius: 5px 5px 0 0;
+}
+
+.topLink {
+  margin-left: 0.5em;
+}
+
+.description {
+  grid-area: description;
+}
+
+.reserve {
+  grid-area: reserve;
+}
