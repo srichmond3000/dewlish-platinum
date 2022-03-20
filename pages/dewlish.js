@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Layout from './components/layout';
 
 const Dewlish = () => {
@@ -32,13 +33,24 @@ const Dewlish = () => {
         1702 built Dewlish House for many generations with the male line being
         lost in WW1. The last member, Lady Rachel, died in 1967. More so, not
         too many village churches can claim to be the last resting place of a
-        military Field Marshall, Sir John Michel. GCB, who died in 1886. At the
-        village cross-roads close by is the old forge and Post Office, both now
-        residential houses, opposite which is the War Memorial. The cross was
-        built in 1929 primarily to honour men of WW1, and lists a sobering total
-        of 20 from such a small community. They are, and surely always will be,
-        remembered at a ceremony which closes the roads every Remembrance
-        Sunday.
+        military Field Marshall, Sir John Michel. GCB, who died in 1886.
+      </p>
+      <figure>
+        <Image
+          src='/images/dewlish-church.jpeg'
+          alt='Dewlish Church'
+          width={600}
+          height={326}
+        />
+        <figcaption>All Saint&apos;s Church, Dewlish</figcaption>
+      </figure>
+      <p>
+        At the village cross-roads close by is the old forge and Post Office,
+        both now residential houses, opposite which is the War Memorial. The
+        cross was built in 1929 primarily to honour men of WW1, and lists a
+        sobering total of 20 from such a small community. They are, and surely
+        always will be, remembered at a ceremony which closes the roads every
+        Remembrance Sunday.
       </p>
       <p>
         It has a particularly remarkable Roman heritage with a large and opulent
