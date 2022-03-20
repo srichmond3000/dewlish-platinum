@@ -1,29 +1,35 @@
+@import '../../styles/variables.scss';
+
 .item {
   display: grid;
   grid-template-areas:
     'header'
     'description'
     'reserve';
-  box-shadow: 0.1em 0.1em hsl(31, 100%, 29%);
+  margin-bottom: 1em;
 }
 
 .header {
   grid-area: header;
   display: flex;
-  background-color: hsl(41, 82%, 29%);
+  align-items: center;
+  background-color: $header-background-colour;
   color: hsl(0, 0%, 100%);
-  padding: 0.7em;
   border-radius: 5px 5px 0 0;
-}
+  padding-left: 0.5em;
 
-.topLink {
-  margin-left: 0.5em;
-}
+  .topLink {
+    margin-left: 0.5em;
+    display: inline-block;
+    padding: 1em;
+    color: hsl(0, 0%, 100%);
+  }
 
-.description {
-  grid-area: description;
-}
+  .description {
+    grid-area: description;
+  }
 
-.reserve {
-  grid-area: reserve;
+  .reserve {
+    grid-area: reserve;
+  }
 }

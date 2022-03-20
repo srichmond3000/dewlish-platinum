@@ -13,9 +13,11 @@ const Auction = () => (
     <h3>Catalogue</h3>
     <ol>
       <li>
-        <a href='#drone-photo'>Drone photography of your house</a>
+        <a href='#1'>Drone photography of your house</a>
       </li>
-      <li>Bottles of sparkling wine.</li>
+      <li>
+        <a href='#2'>Bottles of sparkling wine</a>
+      </li>
     </ol>
     <br />
     <br />
@@ -25,12 +27,17 @@ const Auction = () => (
     <br />
     <br />
     <br />
-    <AuctionItem
-      id='drone-photo'
-      title='Drone photography of your house'
-      description='Gadget will come and fly his drone over your house and take photographs.'
-      reserve='30'
-    />
+    <AuctionItem id='1' title='1 Drone photography of your house' reserve='30'>
+      <p>
+        Gadget will come and fly his drone over your house and take photographs.
+      </p>
+    </AuctionItem>
+    <AuctionItem id='2' title='2 Bottle of wine' reserve='30'>
+      <p>Two fine bottles of sparkling wine</p>
+      <ul>
+        <li>From the Langham Estate</li>
+      </ul>
+    </AuctionItem>
   </Layout>
 );
 

@@ -1,6 +1,6 @@
 import styles from './auctionitem.module.scss';
 
-const AuctionItem = ({ id, title, description, reserve }) => (
+const AuctionItem = ({ id, title, reserve, children }) => (
   <section id={id} className={styles.item}>
     <div className={styles.header}>
       <h3 className={styles.title}>{title}</h3>
@@ -8,7 +8,7 @@ const AuctionItem = ({ id, title, description, reserve }) => (
         <span>Top</span>
       </a>
     </div>
-    <div className={styles.description}>{description}</div>
+    <div className={styles.description}>{children}</div>
     <div className={styles.reserve}>Reserve: £{reserve}</div>
   </section>
 );
