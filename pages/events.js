@@ -7,6 +7,32 @@ const Events = () => {
   return (
     <Layout title='Dewlish Platinum - Events'>
       <h2>Upcoming events</h2>
+
+      <section className='event'>
+        <h3>Auction of Promises, 6.30pm, Sat 2nd April 2022</h3>
+        <p>Dewlish Village Hall, 6.30pm for 7.00pm.</p>
+        <p>
+          Wine and canapes are being served from 6.30pm. The auction starts at
+          7.00pm.
+        </p>
+        <p>There are 50 lots up for auction covering a wide range of promises.</p>
+        <p><a href='https://ucarecdn.com/d2148585-0d56-40e8-a09b-76a6379d3ff5/AuctionPromisesCatalogue.docx'>Download catalogue</a></p>
+      </section>
+
+      <section className='event'>
+        <h3>Treasure Hunt, 2pm Sun 10th April 2022</h3>
+        <p>
+          Join us for a treasure hunt starting at Dewlish Village Hall. Finish
+          at The Oak Pub, Dewlish, assuming you make it back for closing time!
+          £10 per car. Any questions, contact John Seymour on 01258 837291.
+          Click{' '}
+          <a href='https://ucarecdn.com/c71a2c6b-ddf9-4cac-a2dd-4cb4659d8b2f/TreasureHunt.pdf'>
+            here for a flyer
+          </a>
+          .
+        </p>
+      </section>
+
       <section className='event'>
         <h3>Jubilee Quiz</h3>
         <p>
@@ -22,24 +48,6 @@ const Events = () => {
           Answers to Phil Cooper, 3 Manor Close, Dewlish, DT2 7SB by 31st May
           2022 (or email ktnphil@btinternet.com). £20 prize for the winner (name
           will be announced in the Village News).
-        </p>
-      </section>
-      <section className='event'>
-        <h3>Auction of Promises Sat 2nd April 2022</h3>
-        <p>Details to follow</p>
-      </section>
-
-      <section className='event'>
-        <h3>Treasure Hunt, 2pm Sun 10th April 2022</h3>
-        <p>
-          Join us for a treasure hunt starting at Dewlish Village Hall. Finish
-          at The Oak Pub, Dewlish, assuming you make it back for closing time!
-          £10 per car. Any questions, contact John Seymour on 01258 837291.
-          Click{' '}
-          <a href='https://ucarecdn.com/c71a2c6b-ddf9-4cac-a2dd-4cb4659d8b2f/TreasureHunt.pdf'>
-            here for a flyer
-          </a>
-          .
         </p>
       </section>
 
