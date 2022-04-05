@@ -9,14 +9,37 @@ const Events = () => {
       <h2>Upcoming events</h2>
 
       <section className='event'>
-        <h3>Auction of Promises, 6.30pm, Sat 2nd April 2022</h3>
-        <p>Dewlish Village Hall, 6.30pm for 7.00pm.</p>
+        <h3>Barn Dance - Sat 16th April 2022</h3>
         <p>
-          Wine and canapes are being served from 6.30pm. The auction starts at
-          7.00pm.
+          Fasten your seat belts, take a deep breath and be prepared to be
+          amazed! Hold the date of 27th Nov this year and get yourself along to
+          Deverel Farm (Blandford road from Milborne St. Andrew) for 7.30pm and
+          let the good times roll! A Barn Dance no less, but not just any old
+          barn dance. This ‘un has the iconic Black Sheep band providing the
+          dozy doh music, has a big eats BBQ, a drink happy Bar and free
+          parking! What’s not to like? Bring the family or friends. Go home
+          smiling. You surely can’t miss it!
         </p>
-        <p>There are 50 lots up for auction covering a wide range of promises.</p>
-        <p><a href='https://ucarecdn.com/d2148585-0d56-40e8-a09b-76a6379d3ff5/AuctionPromisesCatalogue.docx'>Download catalogue</a></p>
+        <p>
+          Tickest (£10 each, children 14 and under £5) are available from:
+          <ul className={styles.listItem}>
+            <li>
+              <span>
+                <Link href='events/barndance'>
+                  <a>Online</a>
+                </Link>
+              </span>
+            </li>
+            <li>
+              The Oak Pub at Dewlish{' '}
+              <a href='https://goo.gl/maps/xjTkSuuL3UYNY341A'>map</a>
+            </li>
+            <li>
+              Milborne St Andrew Post Office{' '}
+              <a href='https://goo.gl/maps/7gPyWgLo99kQ52jM6'>map</a>
+            </li>
+          </ul>
+        </p>
       </section>
 
       <section className='event'>
@@ -48,40 +71,6 @@ const Events = () => {
           Answers to Phil Cooper, 3 Manor Close, Dewlish, DT2 7SB by 31st May
           2022 (or email ktnphil@btinternet.com). £20 prize for the winner (name
           will be announced in the Village News).
-        </p>
-      </section>
-
-      <section className='event'>
-        <h3>Barn Dance - Sat 16th April 2022</h3>
-        <p>
-          Fasten your seat belts, take a deep breath and be prepared to be
-          amazed! Hold the date of 27th Nov this year and get yourself along to
-          Deverel Farm (Blandford road from Milborne St. Andrew) for 7.30pm and
-          let the good times roll! A Barn Dance no less, but not just any old
-          barn dance. This ‘un has the iconic Black Sheep band providing the
-          dozy doh music, has a big eats BBQ, a drink happy Bar and free
-          parking! What’s not to like? Bring the family or friends. Go home
-          smiling. You surely can’t miss it!
-        </p>
-        <p>
-          Tickest (£10 each) are available from:
-          <ul className={styles.listItem}>
-            <li>
-              <span>
-                <Link href='events/barndance'>
-                  <a>Online</a>
-                </Link>
-              </span>
-            </li>
-            <li>
-              The Oak Pub at Dewlish{' '}
-              <a href='https://goo.gl/maps/xjTkSuuL3UYNY341A'>map</a>
-            </li>
-            <li>
-              Milborne St Andrew Post Office{' '}
-              <a href='https://goo.gl/maps/7gPyWgLo99kQ52jM6'>map</a>
-            </li>
-          </ul>
         </p>
       </section>
       <hr />

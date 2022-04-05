@@ -17,7 +17,7 @@ const BarnDance = () => {
       <p>
         Come and join us at Deverel Farm, Milborne St Andrew, DT11 0HX on Sat
         16th April 2022 for an evening of dance, drinks, eats and merriment.
-        Tickets at £10 also available from:
+        Tickets at £10 (children 14 and under £5) also available from:
         <ul className={styles.listItem}>
           <li>
             The Oak Pub, Dewlish{' '}
