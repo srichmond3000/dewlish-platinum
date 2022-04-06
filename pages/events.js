@@ -38,6 +38,10 @@ const Events = () => {
               Milborne St Andrew Post Office{' '}
               <a href='https://goo.gl/maps/7gPyWgLo99kQ52jM6'>map</a>
             </li>
+            <li>
+              Or on the night at Deverel Farm{' '}
+              <a href='https://goo.gl/maps/2ZyL2kbkJtnAqEzw5'>map</a>
+            </li>
           </ul>
         </p>
       </section>
