@@ -47,20 +47,6 @@ const Events = () => {
       </section>
 
       <section className='event'>
-        <h3>Treasure Hunt, 2pm Sun 10th April 2022</h3>
-        <p>
-          Join us for a treasure hunt starting at Dewlish Village Hall. Finish
-          at The Oak Pub, Dewlish, assuming you make it back for closing time!
-          £10 per car. Any questions, contact John Seymour on 01258 837291.
-          Click{' '}
-          <a href='https://ucarecdn.com/c71a2c6b-ddf9-4cac-a2dd-4cb4659d8b2f/TreasureHunt.pdf'>
-            here for a flyer
-          </a>
-          .
-        </p>
-      </section>
-
-      <section className='event'>
         <h3>Jubilee Quiz</h3>
         <p>
           Welcome to the Dewlish Platinum Jubilee 2022 Quiz! Hopefully you’ll
@@ -80,6 +66,30 @@ const Events = () => {
       <hr />
 
       <h2>Past events</h2>
+      <section className='event'>
+        <h3>Treasure Hunt, Sat 9th April 2022</h3>
+        <p>
+          The Treasure Hunt attracted entries from several surrounding villages
+          and gave all an introduction to highways and byways not usually seen
+          along with clues obtuse and obvious. Ending at our &apos;The Oak&apos;
+          pub, the teams were forced to drink booze until the results were
+          collated and announced. Shame! Our thanks to Roy, the licensee, for
+          the winning prize of a dinner for two ~ which was comprehensively won
+          by Phil and Kate Cooper ~ and to the genius organiser John Seymour who
+          wrote the whole darn thing in rhyme. Yaaawn!
+        </p>
+      </section>
+      <section className='event'>
+        <h3>Auction of Promises, Sat 2nd April 2022</h3>
+        <p>
+          The Auction of Promises raised the monumental figure of over £2.6k
+          from all the wild and various items. They ranged from a weekend at a
+          Studland beach hut to a full car valet, or an hour for 4 in a deluxe
+          hot-tub with champagne included! Auctioneer Andrew Boothe cajoled and
+          presumed to hike offers even higher and the whole evening was a
+          resounding triumph for the &apos;spend till it hurts&apos; mantra.
+        </p>
+      </section>
       <section className='event'>
         <h3>Bonfire Night Sat 6th Nov 2021</h3>
         <p>
