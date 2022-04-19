@@ -9,40 +9,10 @@ const Events = () => {
       <h2>Upcoming events</h2>
 
       <section className='event'>
-        <h3>Barn Dance - Sat 16th April 2022</h3>
+        <h3>Pizza Night - Sat 7th May 2022</h3>
         <p>
-          Fasten your seat belts, take a deep breath and be prepared to be
-          amazed! Hold the date of 27th Nov this year and get yourself along to
-          Deverel Farm (Blandford road from Milborne St. Andrew) for 7.30pm and
-          let the good times roll! A Barn Dance no less, but not just any old
-          barn dance. This ‘un has the iconic Black Sheep band providing the
-          dozy doh music, has a big eats BBQ, a drink happy Bar and free
-          parking! What’s not to like? Bring the family or friends. Go home
-          smiling. You surely can’t miss it!
-        </p>
-        <p>
-          Tickest (£10 each, children 14 and under £5) are available from:
-          <ul className={styles.listItem}>
-            <li>
-              <span>
-                <Link href='events/barndance'>
-                  <a>Online</a>
-                </Link>
-              </span>
-            </li>
-            <li>
-              The Oak Pub at Dewlish{' '}
-              <a href='https://goo.gl/maps/xjTkSuuL3UYNY341A'>map</a>
-            </li>
-            <li>
-              Milborne St Andrew Post Office{' '}
-              <a href='https://goo.gl/maps/7gPyWgLo99kQ52jM6'>map</a>
-            </li>
-            <li>
-              Or on the night at Deverel Farm{' '}
-              <a href='https://goo.gl/maps/2ZyL2kbkJtnAqEzw5'>map</a>
-            </li>
-          </ul>
+          Another great Dewlish Pizza night coming up at the village hall. Watch
+          this space for details.
         </p>
       </section>
 
@@ -66,6 +36,14 @@ const Events = () => {
       <hr />
 
       <h2>Past events</h2>
+      <section className='event'>
+        <h3>Barn Dance, Sat 16th April 2022</h3>
+        <p>
+          We enjoyed a great evening of food, drink and dancing to the{' '}
+          <a href='https://www.blacksheepband.co.uk/'>Black Sheep band</a> at
+          the Barn Dance held at Deverel Farm, courtesy of the Martin family.
+        </p>
+      </section>
       <section className='event'>
         <h3>Treasure Hunt, Sat 9th April 2022</h3>
         <p>
