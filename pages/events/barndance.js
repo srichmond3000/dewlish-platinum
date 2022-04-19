@@ -1,51 +1,17 @@
 import { useEffect } from 'react';
+import { useRouter } from 'next/router';
 import Layout from '../components/layout';
-import styles from './barndance.module.scss';
 
 const BarnDance = () => {
+  const router = useRouter();
+
   useEffect(() => {
-    var el = document.createElement('script');
-    el.src = 'https://www.ticketsource.co.uk/ticketshop/JFHDE';
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(el, s);
-  }, []);
+    router.push('/events');
+  });
 
   return (
     <Layout title='Barn Dance'>
       <h2>Barn Dance Sat 16th April 2022</h2>
-      <div id='embedTS_JFHDE' style={{ width: '100%' }}></div>
-      <p>
-        Come and join us at Deverel Farm, Milborne St Andrew, DT11 0HX on Sat
-        16th April 2022 for an evening of dance, drinks, eats and merriment.
-        Tickets at £10 (children 14 and under £5) also available from:
-        <ul className={styles.listItem}>
-          <li>
-            The Oak Pub, Dewlish{' '}
-            <a href='https://goo.gl/maps/xjTkSuuL3UYNY341A'>map</a>
-          </li>
-          <li>
-            Milborne St Andrew Post Office{' '}
-            <a href='https://goo.gl/maps/7gPyWgLo99kQ52jM6'>map</a>
-          </li>
-          <li>
-            Or on the night at Deverel Farm{' '}
-            <a href='https://goo.gl/maps/2ZyL2kbkJtnAqEzw5'>map</a>
-          </li>
-        </ul>
-      </p>
-      <p>
-        With ample car parking on site, doors and bar open at 7:30pm and dancing
-        starting around 8pm until 11:30pm. Music from Dorset’s liveliest party
-        band <a href='https://www.blacksheepband.co.uk/'>Black Sheep</a>, called
-        by Big Al.
-      </p>
-      <p>
-        Why not enjoy a burger or hot dog along with a drink from our licensed
-        bar?
-      </p>
-      <p>
-        Proceeds from this event will go to the Dewlish Platinum Jubilee fund.
-      </p>
     </Layout>
   );
 };
