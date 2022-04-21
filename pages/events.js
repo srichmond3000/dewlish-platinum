@@ -9,10 +9,10 @@ const Events = () => {
       <h2>Upcoming events</h2>
 
       <section className='event'>
-        <h3>Pizza Night - Sat 7th May 2022</h3>
+        <h3>Pizza and BBQ Night - Sat 7th May 2022</h3>
         <p>
-          Another great Dewlish Pizza night coming up at the village hall. Watch
-          this space for details.
+          Another great Dewlish Pizza and BBQ night coming up at the village
+          hall. Starts at 6.00pm. Bring your own drink.
         </p>
       </section>
 
