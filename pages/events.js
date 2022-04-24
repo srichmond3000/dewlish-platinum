@@ -39,10 +39,33 @@ const Events = () => {
       <section className='event'>
         <h3>Barn Dance, Sat 16th April 2022</h3>
         <p>
-          We enjoyed a great evening of food, drink and dancing to the{' '}
-          <a href='https://www.blacksheepband.co.uk/'>Black Sheep band</a> at
-          the Barn Dance held at Deverel Farm, courtesy of the Martin family.
+          So, it was Saturday 16th. of April and Deverell farm in MIlborne was
+          the place, for the Dewlish Jubilee Barn Dance! Forget the finances,
+          important though they must be. Forget the amount of sheer hard work
+          &amp; unpaid time of those setting up &amp; dismantling the venue.
+          Forget the angst leading up to the day. All that falls away when the
+          true success of the evening was shown on the faces of those dancing!
+          Regardless of age, gender or two left feet, the committed and joyous
+          (yes, that IS what I mean) enthusiasm of the barn dancers said all you
+          needed to know. Over a hundred abandoned their usual reluctance to
+          make a fool of themselves in trying to remember the complex steps
+          &amp; gyrations of each move since everyone was in the same boat and
+          nobody cared! Add to all that a superb BBQ, a bar that never ran dry,
+          an extensive sitting out area &amp; unlimited parking, this happening
+          had it all. Our sincere thanks to the John Martin&apos;s Snr. &amp;
+          Jnr. for the use of the venue and much additional support, and
+          gentlemen, we salute you! Many also were the villagers that manned the
+          various elements and made the whole thing possible. Also, not
+          forgetting the magnificent{' '}
+          <a href='https://www.blacksheepband.co.uk/'>Black Sheep band</a>. A
+          team effort for a wholly deserving cause!
         </p>
+        <Image
+          src='/images/black-sheep.jpeg'
+          alt='Black Sheep band at the Barn Dance'
+          width={1028}
+          height={768}
+        />
       </section>
       <section className='event'>
         <h3>Treasure Hunt, Sat 9th April 2022</h3>
@@ -63,7 +86,7 @@ const Events = () => {
           The Auction of Promises raised the monumental figure of over £2.6k
           from all the wild and various items. They ranged from a weekend at a
           Studland beach hut to a full car valet, or an hour for 4 in a deluxe
-          hot-tub with champagne included! Auctioneer Andrew Boothe cajoled and
+          hot-tub with champagne included! Auctioneer Andrew Booth cajoled and
           presumed to hike offers even higher and the whole evening was a
           resounding triumph for the &apos;spend till it hurts&apos; mantra.
         </p>
