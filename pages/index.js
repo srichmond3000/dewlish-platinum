@@ -31,6 +31,7 @@ const Home = () => {
         alt='Dewlish village hall'
         width={960}
         height={540}
+        priority={true}
       />
       <br />
       <section>
