@@ -14,7 +14,6 @@ const Header = () => {
               alt='Union Jack'
               width={150}
               height={87}
-              priority={true}
             />
           </a>
         </Link>
@@ -27,8 +26,7 @@ const Header = () => {
         <Nav />
       </div>
       {/* TODO: remove this empty div */}
-      <div className={styles.cta}>
-      </div>
+      <div className={styles.cta}></div>
     </div>
   );
 };
