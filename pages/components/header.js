@@ -14,6 +14,7 @@ const Header = () => {
               alt='Union Jack'
               width={150}
               height={87}
+              priority={true}
             />
           </a>
         </Link>
